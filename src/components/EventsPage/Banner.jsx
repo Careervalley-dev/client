@@ -19,11 +19,15 @@ const Banner = () => {
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
               <TypeAnimation
                  sequence={[
-                    'Find over 10000+ Colleges',
+                    'Classroom Sessions',
                     1000,
-                    'Find over 5000+ courses',
+                    'Campus Visits',
                     1000,
-                    'Find over 100+ communities',
+                    'OpenHouses',
+                    1000,
+                   'Educations Fairs',
+                    1000,
+                   'Seminars',
                     1000,
                  ]}
                  speed={50}
