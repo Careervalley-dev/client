@@ -11,7 +11,6 @@ import Card from "../components/Homepage/Card";
 import EventsSlider from "../components/Homepage/EventsSlider";
 import Banner1 from "../components/Homepage/banner/Banner";
 import TimelineComponent from "../components/Homepage/timeline/TimeLine";
-import TimeLine2 from "../components/Homepage/timeline/TimeLine2";
 import TestimonialCarousel from "../components/Homepage/testimonialCarousel/TestimonialCarousel";
 import OrbitalCircles from "../components/Homepage/orbit/OrbitalCircles";
 import Orbit from "../components/Homepage/orbit/Orbit";
