@@ -23,7 +23,7 @@ const Banner = () => {
                     1000,
                     'Campus Visits',
                     1000,
-                    'OpenHouses',
+                    'Open Houses',
                     1000,
                    'Educations Fairs',
                     1000,
