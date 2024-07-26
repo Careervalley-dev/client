@@ -1,0 +1,69 @@
+#homebanner_homepage__tk7b6 {
+    position: relative;
+    overflow: hidden;
+}
+
+.homebanner_padding-top__EyZe2 {
+    padding-top: 100px;
+}
+
+.homebanner_home-heading__W5GvA {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.landing-page_highlight__oZaHl {
+    color: #f9d342;
+}
+
+.homebanner_profile-building___dFgN {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.homebanner_actions-btn__1jrtq {
+    margin-top: 20px;
+}
+
+.homebanner_action-btn__kURtF {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.homebanner_action-black__FaIaS {
+    background-color: #000;
+    color: #fff;
+}
+
+.homebanner_action-white__PCsn6 {
+    background-color: #fff;
+    color: #000;
+}
+
+.homebanner_subtitle__yOEM7 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.homebanner_download-heading__Vob5M {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .fade-overlay {
+    animation: fadeIn 3s ease-in-out forwards;
+  }

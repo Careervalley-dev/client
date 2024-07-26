@@ -1,0 +1,27 @@
+.dotted-connector {
+  border-left: 2px dotted #2A675C;
+  height: 150px;
+  margin-left: 0; /* Adjust based on your timeline item alignment */
+}
+
+.arrow-indicator {
+  position: fixed;
+  top: 250px; /* Initial top position */
+  left: calc(50% - 15px); /* Center horizontally */
+  z-index: 1000;
+  transition: top 0.3s;
+  height: 30px;
+  color: #9fffed;
+}
+
+@media (max-width: 768px) {
+  #rocket-image {
+    left: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  #rocket-image {
+    left: 35%;
+  }
+}

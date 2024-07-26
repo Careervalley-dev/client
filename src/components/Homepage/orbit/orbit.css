@@ -1,0 +1,46 @@
+/* Base animation */
+@keyframes orbit {
+    0% {
+      transform: rotate(0deg) translateX(50%) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(50%) rotate(-360deg);
+    }
+  }
+  
+  /* Inner circle animation */
+  .inner-circle-animation {
+    animation: orbit 15s linear infinite;
+  }
+  
+  .inner-circle-animation.reverse-animation {
+    animation-direction: reverse;
+  }
+  
+  /* Second circle animation */
+  .second-circle-animation {
+    animation: orbit 20s linear infinite;
+  }
+  
+  .second-circle-animation.reverse-animation {
+    animation-direction: reverse;
+  }
+  
+  /* Third circle animation */
+  .third-circle-animation {
+    animation: orbit 25s linear infinite;
+  }
+  
+  .third-circle-animation.reverse-animation {
+    animation-direction: reverse;
+  }
+  
+  /* Outermost circle animation */
+  .outer-circle-animation {
+    animation: orbit 30s linear infinite;
+  }
+  
+  .outer-circle-animation.reverse-animation {
+    animation-direction: reverse;
+  }
+  
