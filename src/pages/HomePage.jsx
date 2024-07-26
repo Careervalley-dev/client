@@ -55,12 +55,7 @@ const HomePage = () => {
       <RegistrationModal />
       <TimelineComponent />
       <TestimonialCarousel />
-      {/* <OrbitalCircles /> */}
       {/* <Orbit /> */}
-      {/* <ExploreByCity />
-      <ExplorePrograms />
-      <StreamSlider data={data} />
-      <TopUniversities /> */}
       <EventsSlider />
       <ContactUs />
     </div>
