@@ -15,7 +15,7 @@ const AboutPage = () => {
     <div className="relative">
       {/* Banner Image Section */}
       {/* <Banner /> */}
-      <section className="relative pt-32 w-full">
+      <section className="relative pt-44 lg:pt-32 w-full">
         <img
           src="https://res.cloudinary.com/du3i8e0se/image/upload/v1721851897/modern-business_64654966_1_xqcwwn.png"
           alt="Hero"
