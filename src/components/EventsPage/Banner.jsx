@@ -25,9 +25,9 @@ const Banner = () => {
                     1000,
                     'Open Houses',
                     1000,
-                    'Education Fair',
+                   'Educations Fairs',
                     1000,
-                    'Seminar',
+                   'Seminars',
                     1000,
                  ]}
                  speed={50}
