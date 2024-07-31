@@ -5,7 +5,15 @@ import Modal from "react-modal";
 import { SlCalender } from "react-icons/sl";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa";
-import { FiX, FiUser, FiPhone, FiMail, FiMapPin, FiBookOpen, FiKey } from "react-icons/fi";
+import {
+  FiX,
+  FiUser,
+  FiPhone,
+  FiMail,
+  FiMapPin,
+  FiBookOpen,
+  FiKey,
+} from "react-icons/fi";
 import Heading from "../components/common/Heading";
 
 Modal.setAppElement("#root");
@@ -31,6 +39,7 @@ const EventsPage = () => {
       date: "2023-04-15",
       time: "09:00AM - 12:00PM",
       description: "Description of the upcoming event 1.",
+      type: "Open House",
     },
     {
       title: "Upcoming Event 2",
@@ -38,6 +47,7 @@ const EventsPage = () => {
       date: "2023-04-20",
       time: "09:00AM - 12:00PM",
       description: "Description of the upcoming event 2.",
+      type: "Education Fair",
     },
     {
       title: "Upcoming Event 3",
@@ -45,6 +55,7 @@ const EventsPage = () => {
       date: "2023-04-20",
       time: "09:00AM - 12:00PM",
       description: "Description of the upcoming event 2.",
+      type: "Campus Visit",
     },
     {
       title: "Upcoming Event 4",
@@ -52,9 +63,17 @@ const EventsPage = () => {
       date: "2023-04-20",
       time: "09:00AM - 12:00PM",
       description: "Description of the upcoming event 2.",
+      type: "Campus Visit",
+    },
+    {
+      title: "Upcoming Event 5",
+      city: "Hyderabad",
+      date: "2023-04-20",
+      time: "09:00AM - 12:00PM",
+      description: "Description of the upcoming event 2.",
+      type: "Seminar",
     },
   ];
-
 
   const recentEvents = [
     {
@@ -63,6 +82,7 @@ const EventsPage = () => {
       date: "2023-03-25",
       time: "09:00AM - 12:00PM",
       description: "Description of the recent event 1.",
+      type: "Open House",
     },
     {
       title: "Recent Event 2",
@@ -70,12 +90,15 @@ const EventsPage = () => {
       date: "2023-03-30",
       time: "09:00AM - 12:00PM",
       description: "Description of the recent event 2.",
+      type: "Education Fair",
     },
     {
       title: "Recent Event 3",
-      city: "Bangalore", date: "2023-03-30",
+      city: "Bangalore",
+      date: "2023-03-30",
       time: "09:00AM - 12:00PM",
       description: "Description of the recent event 2.",
+      type: "Classroom Session",
     },
     {
       title: "Recent Event 4",
@@ -83,11 +106,17 @@ const EventsPage = () => {
       date: "2023-03-30",
       time: "09:00AM - 12:00PM",
       description: "Description of the recent event 2.",
+      type: "Campus Visit",
+    },
+    {
+      title: "Recent Event 5",
+      city: "Bangalore",
+      date: "2023-03-30",
+      time: "09:00AM - 12:00PM",
+      description: "Description of the recent event 2.",
+      type: "Seminar",
     },
   ];
-
-
-
 
   const events = activeTab === "upcoming" ? upcomingEvents : recentEvents;
 
@@ -117,7 +146,7 @@ const EventsPage = () => {
       <Banner />
       <div className="container mx-auto px-4 py-12">
         <div className="p-4 bg-white flex flex-col justify-center items-center">
-        <Heading normalText="Our" highlightText="Events" />
+          <Heading normalText="Our" highlightText="Events" />
           {/* <h2 className="text-4xl font-bold font-dosis mb-4 bg-white">Events</h2> */}
           <p className="text-xl text-justify mb-4 px-8 mt-6 font-cat">
             At The Career Valley, each event and initiative is in the direction
@@ -130,13 +159,21 @@ const EventsPage = () => {
 
         <div className="flex justify-center my-12">
           <button
-            className={`px-4 py-2 font-dosis rounded-lg ${activeTab === "upcoming" ? "bg-[#235950] text-white" : "bg-gray-200 text-gray-700"}`}
+            className={`px-4 py-2 font-dosis rounded-lg ${
+              activeTab === "upcoming"
+                ? "bg-[#235950] text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
             onClick={() => handleTabChange("upcoming")}
           >
             Upcoming Events
           </button>
           <button
-            className={`px-4 py-2 ml-4 font-dosis rounded-lg ${activeTab === "recent" ? "bg-[#235950] text-white" : "bg-gray-200 text-gray-700"}`}
+            className={`px-4 py-2 ml-4 font-dosis rounded-lg ${
+              activeTab === "recent"
+                ? "bg-[#235950] text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
             onClick={() => handleTabChange("recent")}
           >
             Recent Events
@@ -199,17 +236,19 @@ const EventsPage = () => {
           className="modal-content-1"
           overlayClassName="modal-overlay-1"
         >
-          <div></div>
-          <div className="flex flex-row-reverse justify-between gap-x-10">
-            <div>
+          <div className="flex flex-col justify-between gap-x-10 overflow-y-auto">
+            <div className="flex justify-center items-center">
               <img
                 src="https://i.postimg.cc/WzNBNPj1/IMG-0932.jpg"
                 alt="Event"
-                className="w-[300px]"
+                className="w-[700px]"
               />
             </div>
-            <div className="flex flex-col justify-start">
-              <h2 className="lg:text-2xl text-lg font-bold font-dosis">TITLE</h2>
+            <div className="">
+              <h2 className="lg:text-2xl text-lg font-bold font-dosis">
+                TITLE
+              </h2>
+              <div className="flex flex-col lg:flex-row gap-x-6">
               <p className="flex items-center gap-x-2 text-lg font-cat mb-4">
                 <SlCalender className="text-[16px]" />
                 31 DEC 2000
@@ -222,12 +261,24 @@ const EventsPage = () => {
                 <FaRegClock className="text-[16px]" />
                 09:00AM - 12:00PM
               </p>
+              <p className="flex items-center gap-x-2 text-lg font-cat mb-4">
+                <FaRegClock className="text-[16px]" />
+                Seminar
+              </p>
+              </div>
             </div>
           </div>
 
           <div>
             <p className="text-md text-justify my-4 font-cat">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus necessitatibus neque veniam impedit! Dolores est consequuntur reprehenderit error a placeat tempora eum assumenda impedit, necessitatibus voluptatibus mollitia, cum officiis nisi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium vel delectus nesciunt iusto reprehenderit repellendus ex quam consequatur quas, quos quisquam consectetur tempora unde cum. Impedit blanditiis debitis possimus maxime.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloribus necessitatibus neque veniam impedit! Dolores est
+              consequuntur reprehenderit error a placeat tempora eum assumenda
+              impedit, necessitatibus voluptatibus mollitia, cum officiis nisi.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Praesentium vel delectus nesciunt iusto reprehenderit repellendus
+              ex quam consequatur quas, quos quisquam consectetur tempora unde
+              cum. Impedit blanditiis debitis possimus maxime.
             </p>
             <button
               onClick={closeModal1}

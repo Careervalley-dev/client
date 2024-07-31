@@ -34,7 +34,7 @@ const ServicesPage = () => {
     <div>
       <Banner />
       <div className="container mx-auto px-4 py-12">
-        <div className="p-4 bg-white">
+        <div className="p-4 bg-white flex justify-center items-center flex-col">
         <Heading normalText="Our" highlightText="Services" />
           {/* <h2 className="text-4xl font-bold font-dosis mb-4 bg-white">
             Services

@@ -6,6 +6,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
 .banner-wrapper {
     position: relative;
@@ -733,3 +745,23 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+  

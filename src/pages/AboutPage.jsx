@@ -11,15 +11,27 @@ import { Link } from "react-router-dom";
 import Heading from "../components/common/Heading";
 
 const AboutPage = () => {
-
   return (
     <div className="relative">
       {/* Banner Image Section */}
-      <Banner />
+      {/* <Banner /> */}
+      <section className="relative pt-32 w-full">
+        <img
+          src="https://res.cloudinary.com/du3i8e0se/image/upload/v1721851897/modern-business_64654966_1_xqcwwn.png"
+          alt="Hero"
+          className="w-full h-full object-cover"
+        />
+        {/* <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
+          <h1 className="text-4xl font-bold mb-2">
+            Welcome to The Career Valley
+          </h1>
+          <p className="text-xl">Your Pathway to Success Starts Here</p>
+        </div> */}
+      </section>
       <div className="container mx-auto px-4 py-12">
         {/* Our Mission */}
         <section className="text-left mb-12 font-cat bg-white p-4 flex flex-col justify-center items-center">
-          <Heading normalText="Our" highlightText="Mission"/>
+          <Heading normalText="Our" highlightText="Mission" />
           {/* <h2 className="text-4xl font-dosis font-bold mb-4">Our Mission</h2> */}
           <p className="text-lg lg:ml-16">
             To be the premier education portal, we strive to provide the most
@@ -31,8 +43,8 @@ const AboutPage = () => {
 
         {/* Our Story */}
         <section className="text-left mb-12 font-cat bg-white px-4 flex flex-col justify-center items-center">
-        <Heading normalText="Our" highlightText="Story"/>
-        <div className="flex flex-col-reverse lg:flex-row gap-x-4 lg:ml-16">
+          <Heading normalText="Our" highlightText="Story" />
+          <div className="flex flex-col-reverse lg:flex-row gap-x-4 lg:ml-16">
             <div className="text-md text-justify w-full lg:w-2/5 flex justify-start items-start pt-4">
               <div className="ring-2 ring-black rounded-md p-2">
                 <div className="flex justify-start">
@@ -52,7 +64,7 @@ const AboutPage = () => {
             </div>
             <div className="w-full lg:w-3/5 lg:pl-10 lg:p-6 p-2">
               <img
-                src='https://res.cloudinary.com/du3i8e0se/image/upload/v1721844626/js2nqbft8hklayhw6swd.jpg'
+                src="https://res.cloudinary.com/du3i8e0se/image/upload/v1721844626/js2nqbft8hklayhw6swd.jpg"
                 className="rounded-md h-full w-full"
               />
             </div>
@@ -61,13 +73,16 @@ const AboutPage = () => {
 
         {/* Our Founder */}
         <section className="text-left mb-12 font-cat bg-white px-4 flex flex-col justify-center items-center">
-        <Heading normalText="Our" highlightText="Founder"/>
-          {/* <h2 className="text-4xl font-dosis font-bold mb-4">Our Founder</h2> */}
+          <Heading normalText="Our" highlightText="Founder" />
           <div className="flex flex-col-reverse lg:flex-row-reverse gap-x-2 lg:last:ml-16">
             <div className="text-md text-justify w-full lg:w-3/5 flex flex-col justify-start items-start pt-4">
               <div className="ring-2 ring-black rounded-md p-2">
-                <h1 className="text-2xl pl-2 font-dosis font-semibold">Divya Rupainwar</h1>
-                <h2 className="text-xl pl-2 font-dosis font-medium">Founder & CEO</h2>
+                <h1 className="text-2xl pl-2 font-dosis font-semibold">
+                  Divya Rupainwar
+                </h1>
+                <h2 className="text-xl pl-2 font-dosis font-medium">
+                  Founder & CEO
+                </h2>
                 <div className="mb-4 pl-2 gap-x-3 flex text-[18px] mt-2">
                   <Link to="https://www.linkedin.com/in/aditya--sahu89/">
                     <FaLinkedin className="hover:text-[#2d49ff]" />

@@ -67,7 +67,7 @@ const events = [
     link: "/events?tab=upcoming",
     linkText: "Explore our events!",
     imgSrc:
-      "https://i.postimg.cc/pXNVMfCF/Nice-Png-education-icon-png-1277462.png",
+      "https://res.cloudinary.com/du3i8e0se/image/upload/v1722275884/Firefly_education_fair_graphic_illustration_49011-removebg-preview_ftpwnx.png",
   },
   {
     id: 2,
@@ -79,7 +79,7 @@ const events = [
     link: "#",
     linkText: "Book a Consultation Now!",
     imgSrc:
-      "https://thecareervalley.com/wp-content/uploads/2023/07/ser-i1-6-1.png",
+      "https://res.cloudinary.com/du3i8e0se/image/upload/v1722275884/Firefly_education_fair_graphic_illustration_27543-removebg-preview_ncpnwc.png",
   },
   {
     id: 3,
@@ -93,7 +93,7 @@ const events = [
     link2: "/colleges/pg",
     linkText2: "PG Options",
     imgSrc:
-      "https://thecareervalley.com/wp-content/uploads/2023/07/ser-i1-4-1.png",
+      "https://res.cloudinary.com/du3i8e0se/image/upload/v1722275884/Firefly_wide_range_of_career_options_graphic_illustration_like_engineer__doctor__lawyer__manager_511__1_-removebg-preview_m83how.png",
   },
   {
     id: 4,
@@ -105,7 +105,7 @@ const events = [
     link: "/contact",
     linkText: "Contact Us!",
     imgSrc:
-      "https://thecareervalley.com/wp-content/uploads/2023/07/ser-h16-3.png",
+      "https://res.cloudinary.com/du3i8e0se/image/upload/v1722275885/Firefly_wide_range_of_career_options_graphic_illustration_like_engineer__doctor__lawyer__manager_511__2_-removebg-preview_y1trcf.png",
   },
 ];
 
@@ -205,7 +205,7 @@ export default function TimelineComponent() {
                 variant="body2"
               >
                 <div className="flex justify-center items-center">
-                  <img src={item.imgSrc} className="h-[200px]" />
+                  <img src={item.imgSrc} className="h-[350px] floating" />
                 </div>
               </TimelineOppositeContent>
 
@@ -468,7 +468,7 @@ export default function TimelineComponent() {
                     >
                       <img
                         src={item.imgSrc}
-                        className="h-[200px]"
+                        className="h-[350px] floating"
                         style={{
                           // width: isMobileOrTablet ? "100%" : "auto",
                           height: "150px",

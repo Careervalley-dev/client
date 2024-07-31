@@ -19,17 +19,16 @@ const BannerUg = () => {
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
               <TypeAnimation
                  sequence={[
-                    'Find over 10000+ Colleges',
+                    'Find a wide range of Colleges',
                     1000,
-                    'Find over 5000+ courses',
+                    'Find various courses',
                     1000,
                     'Find over 100+ communities',
                     1000,
                  ]}
                  speed={50}
-                 style={{ fontSize: '2em' }}
                  repeat={Infinity}
-                 className='font-anta'
+                 className='inline-block text-5xl font-bold drop-shadow-lg'
               />
             </div>
           </div>

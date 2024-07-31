@@ -43,15 +43,15 @@ module.exports = {
           '100%': { transform: 'translateX(0)', opacity: '1' },
         },
         'marquee': {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
        },
        animation: {
          'fade-in': 'fade-in 1s ease-out forwards',
         'bounce': 'bounce 1s infinite',
         'slide-in': 'slide-in 1s ease-out forwards',
-        'marquee': 'marquee 20s linear infinite',
+        'marquee': 'marquee 10s linear infinite',
        },
        colors: {
         'primary-dark': '#000000',
@@ -61,4 +61,4 @@ module.exports = {
      }
   },
   plugins: [],
- }
+}

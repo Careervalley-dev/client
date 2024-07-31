@@ -44,7 +44,8 @@ const ConsultationModal = ({ isOpen, onClose }) => {
                 >
                   <span className="book-now-text">Book Now</span>
                   <FaArrowRight className="book-now-arrow hidden ml-5 lg:inline-block" />
-                  <FaArrowDown className="book-now-arrow inline-block lg:hidden" />                </a>
+                  <FaArrowDown className="book-now-arrow inline-block lg:hidden" />                
+                </a>
               </div>
               <div className="text-center">
                 <p className="text-lg mb-2">
@@ -53,13 +54,13 @@ const ConsultationModal = ({ isOpen, onClose }) => {
                     href="mailto:contact@career-valley.com"
                     className="underline"
                   >
-                    info@thecareervalley.com
-                  </a>
+                  divya@thecareervalley.com                  
+                </a>
                 </p>
                 <p className="text-lg">
                   Phone:{" "}
                   <a href="tel:+1234567890" className="underline">
-                    +1 (234) 567-890
+                    +91 8309-071632
                   </a>
                 </p>
               </div>

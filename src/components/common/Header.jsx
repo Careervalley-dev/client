@@ -126,7 +126,7 @@ const Header = () => {
             <Link
               to="/"
               className={`flex items-center gap-x-2 font-dosis font-bold text-[18px] ${
-                isScrolled ? "text-black" : "text-black"
+                isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
               } ${isActive("/") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               onClick={handleOptionSelect}
             >
@@ -138,7 +138,7 @@ const Header = () => {
               <button
                 onClick={() => toggleDropdown("about")}
                 className={`flex items-center gap-x-2 font-dosis font-bold text-[18px] ${
-                  isScrolled ? "text-black" : "text-black"
+                  isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
                 } ${isActive("/about") || isActive("/team") || isActive("/experts") || isActive("/gallery") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               >
                 About
@@ -155,28 +155,28 @@ const Header = () => {
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">About</span>
+                    <span className="text-[14px] text-[#2A675C]">About</span>
                   </Link>
                   <Link
                     to="/team"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">Team</span>
+                    <span className="text-[14px] text-[#2A675C]">Team</span>
                   </Link>
                   <Link
                     to="/experts"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">Experts</span>
+                    <span className="text-[14px] text-[#2A675C]">Experts</span>
                   </Link>
                   <Link
                     to="/gallery"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">Gallery</span>
+                    <span className="text-[14px] text-[#2A675C]">Gallery</span>
                   </Link>
                 </div>
               )}
@@ -187,7 +187,7 @@ const Header = () => {
               <button
                 onClick={() => toggleDropdown("colleges")}
                 className={`flex items-center gap-x-2 font-bold font-dosis text-[18px] ${
-                  isScrolled ? "text-black" : "text-black"
+                  isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
                 } ${isActive("/colleges/ug") || isActive("/colleges/pg") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               >
                 Colleges
@@ -204,14 +204,14 @@ const Header = () => {
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">UG</span>
+                    <span className="text-[14px] text-[#2A675C]">UG</span>
                   </Link>
                   <Link
                     to="/colleges/pg"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">PG</span>
+                    <span className="text-[14px] text-[#2A675C]">PG</span>
                   </Link>
                 </div>
               )}
@@ -221,7 +221,7 @@ const Header = () => {
             <Link
               to="/services"
               className={`flex items-center gap-x-2 font-bold font-dosis text-[18px] ${
-                isScrolled ? "text-black" : "text-black"
+                isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
               } ${isActive("/services") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               onClick={handleOptionSelect}
             >
@@ -233,7 +233,7 @@ const Header = () => {
               <button
                 onClick={() => toggleDropdown("events")}
                 className={`flex items-center gap-x-2 font-bold font-dosis text-[18px] ${
-                  isScrolled ? "text-black" : "text-black"
+                  isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
                 } ${isActive("/events") || isActive("/events") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               >
                 Events
@@ -250,14 +250,14 @@ const Header = () => {
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">Upcoming</span>
+                    <span className="text-[14px] text-[#2A675C]">Upcoming</span>
                   </Link>
                   <Link
                     to="/events?tab=recent"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">Recent</span>
+                    <span className="text-[14px] text-[#2A675C]">Recent</span>
                   </Link>
                 </div>
               )}
@@ -268,8 +268,8 @@ const Header = () => {
               <button
                 onClick={() => toggleDropdown("courses")}
                 className={`flex items-center gap-x-2 font-dosis font-bold text-[18px] ${
-                  isScrolled ? "text-black" : "text-black"
-                } ${isActive("/about") || isActive("/team") || isActive("/experts") || isActive("/gallery") || isActive("/course") ? "text-[#2A675C] underline" : ""} transition duration-300`}
+                  isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
+                } ${isActive("/courses/btech") || isActive("/courses/ba") || isActive("/courses/bca") || isActive("/courses/bba") || isActive("/courses/bcom") || isActive("/courses/bsc") || isActive("/courses/mba") || isActive("/courses/mtech") || isActive("/courses/llb") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               >
                 All Courses
                 <AiOutlineDownCircle
@@ -285,63 +285,63 @@ const Header = () => {
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">B.Tech</span>
+                    <span className="text-[14px] text-[#2A675C]">B.Tech</span>
                   </Link>
                   <Link
                     to="/courses/bsc"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">B.Sc</span>
+                    <span className="text-[14px] text-[#2A675C]">B.Sc</span>
                   </Link>
                   <Link
                     to="/courses/bcom"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">B.Com</span>
+                    <span className="text-[14px] text-[#2A675C]">B.Com</span>
                   </Link>
                   <Link
                     to="/courses/bba"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">BBA</span>
+                    <span className="text-[14px] text-[#2A675C]">BBA</span>
                   </Link>
                   <Link
                     to="/courses/bca"
                     className="block px-4 py-2 hover:bg-gray-200"  
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">BCA</span>
+                    <span className="text-[14px] text-[#2A675C]">BCA</span>
                   </Link>
                   <Link
                     to="/courses/ba"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">BA</span>
+                    <span className="text-[14px] text-[#2A675C]">BA</span>
                   </Link>
                   <Link
                     to="/courses/mba"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">MBA</span>
+                    <span className="text-[14px] text-[#2A675C]">MBA</span>
                   </Link>
                   <Link
                     to="/courses/mtech"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">M.Tech</span>
+                    <span className="text-[14px] text-[#2A675C]">M.Tech</span>
                   </Link>
                   <Link
                     to="/courses/llb"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
-                    <span className="text-[14px]">LLB</span>
+                    <span className="text-[14px] text-[#2A675C]">LLB</span>
                   </Link>
                 </div>
               )}
@@ -354,8 +354,8 @@ const Header = () => {
                 <button
                   onClick={() => toggleDropdown("profile")}
                   className={`flex items-center gap-x-2 font-bold font-dosis text-[22px] ${
-                    isScrolled ? "text-black" : "text-black"
-                  } ${isActive("/profile") ? "text-[#2A675C] underline" : ""} transition duration-300`}
+                    isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
+                  } ${isActive("/profile") ? "text-[#2A675C] underline-[#2A675C]" : ""} transition duration-300`}
                 >
                   <FiUser />
                   <AiOutlineDownCircle
@@ -395,14 +395,14 @@ const Header = () => {
                       className="block px-4 py-2 hover:bg-gray-200"
                       onClick={handleOptionSelect}
                     >
-                      <span className="text-[14px]">Reset Password</span>
+                      <span className="text-[14px] text-[#2A675C]">Reset Password</span>
                     </Link>
                     <Link
                       to="/logout"
                       className="block px-4 py-2 hover:bg-gray-200 hover:text-red-600"
                       onClick={handleOptionSelect}
                     >
-                      <span className="text-[14px]">Logout</span>
+                      <span className="text-[14px] text-[#2A675C]">Logout</span>
                     </Link>
                   </div>
                 )}
@@ -411,7 +411,7 @@ const Header = () => {
               <Link
                 to="/login"
                 className={`font-dosis text-[18px] ${
-                  isScrolled ? "text-black" : "text-black"
+                  isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
                 } ${isActive("/login") ? "text-[#2A675C] underline" : ""} transition duration-300`}
               >
                 <FiUser />
@@ -424,7 +424,7 @@ const Header = () => {
         <button
           onClick={toggleMenu}
           className={`lg:hidden ${
-            isScrolled ? "text-black" : "text-black"
+            isScrolled ? "text-[#2A675C]" : "text-[#2A675C]"
           } focus:outline-none`}
         >
           {isMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
@@ -439,7 +439,7 @@ const Header = () => {
             <nav className="flex flex-col space-y-4 p-4">
               <Link 
                 to="/" 
-                className="flex items-center gap-x-2 hover:underline"
+                className="flex items-center gap-x-2 hover:underline text-[white]"
                 onClick={handleOptionSelect}  
               >
                 <IoIosHome />
@@ -449,7 +449,7 @@ const Header = () => {
               <div className="relative">
                 <button
                   onClick={() => toggleDropdown("about")}
-                  className="flex items-center gap-x-2"
+                  className="flex items-center gap-x-2 text-[white]"
                 >
                   <IoMdInformationCircle />
                   About
@@ -461,10 +461,10 @@ const Header = () => {
                 </button>
                 {isAboutOpen && (
                   <div className="flex flex-col pl-6 space-y-2">
-                    <Link to="/about" className="hover:underline" onClick={handleOptionSelect}>About</Link>
-                    <Link to="/team" className="hover:underline" onClick={handleOptionSelect}>Team</Link>
-                    <Link to="/experts" className="hover:underline" onClick={handleOptionSelect}>Experts</Link>
-                    <Link to="/gallery" className="hover:underline" onClick={handleOptionSelect}>Gallery</Link>
+                    <Link to="/about" className="hover:underline text-[white]" onClick={handleOptionSelect}>About</Link>
+                    <Link to="/team" className="hover:underline text-[white]" onClick={handleOptionSelect}>Team</Link>
+                    <Link to="/experts" className="hover:underline text-[white]" onClick={handleOptionSelect}>Experts</Link>
+                    <Link to="/gallery" className="hover:underline text-[white]" onClick={handleOptionSelect}>Gallery</Link>
                   </div>
                 )}
               </div>
@@ -472,7 +472,7 @@ const Header = () => {
               <div className="relative">
                 <button
                   onClick={() => toggleDropdown("colleges")}
-                  className="flex items-center gap-x-2"
+                  className="flex items-center gap-x-2  text-[white]"
                 >
                   <FaBuildingColumns />
                   Colleges
@@ -484,13 +484,13 @@ const Header = () => {
                 </button>
                 {isCollegesOpen && (
                   <div className="flex flex-col pl-6 space-y-2">
-                    <Link to="/colleges/ug" className="hover:underline" onClick={handleOptionSelect}>UG</Link>
-                    <Link to="/colleges/pg" className="hover:underline" onClick={handleOptionSelect}>PG</Link>
+                    <Link to="/colleges/ug" className="hover:underline text-[white]" onClick={handleOptionSelect}>UG</Link>
+                    <Link to="/colleges/pg" className="hover:underline text-[white]" onClick={handleOptionSelect}>PG</Link>
                   </div>
                 )}
               </div>
 
-              <Link to="/services" className="flex items-center gap-x-2 hover:underline" onClick={handleOptionSelect}>
+              <Link to="/services" className="flex items-center gap-x-2 hover:underline text-[white]" onClick={handleOptionSelect}>
                 <MdOutlineMiscellaneousServices />
                 Services
               </Link>
@@ -498,7 +498,7 @@ const Header = () => {
               <div className="relative">
                 <button
                   onClick={() => toggleDropdown("events")}
-                  className="flex items-center gap-x-2"
+                  className="flex items-center gap-x-2 text-[white]"
                 >
                   <MdEventNote />
                   Events
@@ -510,8 +510,8 @@ const Header = () => {
                 </button>
                 {isEventsOpen && (
                   <div className="flex flex-col pl-6 space-y-2">
-                    <Link to="/events?tab=upcoming" className="hover:underline" onClick={handleOptionSelect}>Upcoming</Link>
-                    <Link to="/events?tab=recent" className="hover:underline" onClick={handleOptionSelect}>Recent</Link>
+                    <Link to="/events?tab=upcoming" className="hover:underline text-[white]" onClick={handleOptionSelect}>Upcoming</Link>
+                    <Link to="/events?tab=recent" className="hover:underline text-[white]" onClick={handleOptionSelect}>Recent</Link>
                   </div>
                 )}
               </div>
@@ -519,7 +519,7 @@ const Header = () => {
               <div className="relative">
                 <button
                   onClick={() => toggleDropdown("courses")}
-                  className="flex items-center gap-x-2"
+                  className="flex items-center gap-x-2 text-[white]"
                 >
                   <FaBookReader />
                   All Courses
@@ -531,15 +531,15 @@ const Header = () => {
                 </button>
                 {isCourseOpen && (
                   <div className="flex flex-col pl-6 space-y-2">
-                    <Link to="/courses/btech" className="hover:underline" onClick={handleOptionSelect}>B.Tech</Link>
-                    <Link to="/courses/bsc" className="hover:underline" onClick={handleOptionSelect}>B.Sc</Link>
-                    <Link to="/courses/bcom" className="hover:underline" onClick={handleOptionSelect}>B.Com</Link>
-                    <Link to="/courses/bba" className="hover:underline" onClick={handleOptionSelect}>BBA</Link>
-                    <Link to="/courses/bca" className="hover:underline" onClick={handleOptionSelect}>BCA</Link>
-                    <Link to="/courses/ba" className="hover:underline" onClick={handleOptionSelect}>BA</Link>
-                    <Link to="/courses/mba" className="hover:underline" onClick={handleOptionSelect}>MBA</Link>
-                    <Link to="/courses/mtech" className="hover:underline" onClick={handleOptionSelect}>M.Tech</Link>
-                    <Link to="/courses/llb" className="hover:underline" onClick={handleOptionSelect}>LLB</Link>
+                    <Link to="/courses/btech" className="hover:underline text-[white]" onClick={handleOptionSelect}>B.Tech</Link>
+                    <Link to="/courses/bsc" className="hover:underline text-[white]" onClick={handleOptionSelect}>B.Sc</Link>
+                    <Link to="/courses/bcom" className="hover:underline text-[white]" onClick={handleOptionSelect}>B.Com</Link>
+                    <Link to="/courses/bba" className="hover:underline text-[white]" onClick={handleOptionSelect}>BBA</Link>
+                    <Link to="/courses/bca" className="hover:underline text-[white]" onClick={handleOptionSelect}>BCA</Link>
+                    <Link to="/courses/ba" className="hover:underline text-[white]" onClick={handleOptionSelect}>BA</Link>
+                    <Link to="/courses/mba" className="hover:underline text-[white]" onClick={handleOptionSelect}>MBA</Link>
+                    <Link to="/courses/mtech" className="hover:underline text-[white]" onClick={handleOptionSelect}>M.Tech</Link>
+                    <Link to="/courses/llb" className="hover:underline text-[white]" onClick={handleOptionSelect}>LLB</Link>
                   </div>
                 )}
               </div>
@@ -549,7 +549,7 @@ const Header = () => {
                 <div className="relative">
                   <button
                     onClick={() => toggleDropdown("profile")}
-                    className="flex items-center gap-x-2"
+                    className="flex items-center gap-x-2 text-[white]"
                   >
                     <FiUser />
                     Profile
@@ -578,13 +578,13 @@ const Header = () => {
                         1234567890
                       </div>
                       {/* <Link to="/profile" className="hover:underline">Profile</Link> */}
-                      <Link to="/resetpassword" className="hover:underline" onClick={handleOptionSelect}>Reset Password</Link>
-                      <Link to="/logout" className="hover:underline" onClick={handleOptionSelect}>Logout</Link>
+                      <Link to="/resetpassword" className="hover:underline text-[white]" onClick={handleOptionSelect}>Reset Password</Link>
+                      <Link to="/logout" className="hover:underline text-[white]" onClick={handleOptionSelect}>Logout</Link>
                     </div>
                   )}
                 </div>
               ) : (
-                <Link to="/login" className="flex items-center gap-x-2">
+                <Link to="/login" className="flex items-center gap-x-2 text-[white]">
                   <FiUser />
                   Login
                 </Link>

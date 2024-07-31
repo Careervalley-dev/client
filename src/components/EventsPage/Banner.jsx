@@ -19,17 +19,21 @@ const Banner = () => {
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
               <TypeAnimation
                  sequence={[
-                    'Find over 10000+ Colleges',
+                    'Classroom Sessions',
                     1000,
-                    'Find over 5000+ courses',
+                    'Campus Visits',
                     1000,
-                    'Find over 100+ communities',
+                    'Open Houses',
+                    1000,
+                    'Education Fair',
+                    1000,
+                    'Seminar',
                     1000,
                  ]}
                  speed={50}
                  style={{ fontSize: '2em' }}
                  repeat={Infinity}
-                 className='font-anta'
+                 className='inline-block text-5xl font-bold drop-shadow-lg'
               />
             </div>
           </div>
