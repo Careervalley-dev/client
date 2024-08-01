@@ -84,34 +84,39 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Parul University",
-    location: "Vadodara, Gujarat",
-    rank: 1,
-    siteUrl: "https://www.paruluniversity.ac.in/",
+    name: "ISBR",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.isbr.in/",
   },
   {
-    name: "SRM Institute of Science and Technology",
-    location: "Chennai, Tamil Nadu",
-    rank: 2,
-    siteUrl: "https://www.srmist.edu.in/",
+    name: "Mangalmay Group of Institutions",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.mangalmay.org/",
   },
   {
-    name: "Amity University",
-    location: "Noida, Uttar Pradesh",
-    rank: 3,
-    siteUrl: "https://www.amity.edu/",
+    name: "Graphic Era University",
+    location: "Dehradun, Uttarakhand",
+    siteUrl: "https://geu.ac.in/",
   },
   {
-    name: "Lovely Professional University",
-    location: "Phagwara, Punjab",
-    rank: 4,
-    siteUrl: "https://www.lpu.in/",
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
   },
   {
-    name: "NMIMS",
-    location: "Mumbai, Maharashtra",
-    rank: 5,
-    siteUrl: "https://www.nmims.edu/",
+    name: "R V University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://rvu.edu.in/",
+  },
+  {
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
+  },
+  {
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
   },
 ];
 
@@ -429,7 +434,6 @@ const BcaPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

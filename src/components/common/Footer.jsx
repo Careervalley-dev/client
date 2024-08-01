@@ -66,17 +66,17 @@ const Footer = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:mt-20 lg:grid-cols-4 gap-8 lg:gap-x-16">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col lg:text-left text-center">
               <h3 className="text-xl font-bold mb-4">About Us</h3>
-              <ul className="text-center space-y-2">
+              <ul className="lg:text-left text-center space-y-2">
                 <li className="cursor-pointer hover:text-black">Our Mission</li>
                 <li className="cursor-pointer hover:text-black">Our Team</li>
                 <li className="cursor-pointer hover:text-black">Our Story</li>
               </ul>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col lg:text-left text-center">
               <h3 className="text-xl font-bold mb-4">Legal</h3>
-              <ul className="text-center space-y-2">
+              <ul className="lg:text-left text-center space-y-2">
                 <li className="cursor-pointer hover:text-black">
                   Terms of Service
                 </li>
@@ -88,9 +88,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col lg:text-left text-center">
               <h3 className="text-xl font-bold mb-4">Careers</h3>
-              <ul className="text-center space-y-2">
+              <ul className="lg:text-left text-center space-y-2">
                 <li className="cursor-pointer hover:text-black">
                   Current Openings
                 </li>
@@ -100,14 +100,14 @@ const Footer = () => {
                 <li className="cursor-pointer hover:text-black">Join Us</li>
               </ul>
             </div>
-            <div className="flex flex-col items-center">
-              <h3 className="text-xl font-bold mb-4">Contact</h3>
-              <ul className="text-center space-y-2 mb-4">
-                <li>Email: info@example.com</li>
-                <li>Phone: +123 456 7890</li>
-                <li>Address: 123 Street, City, Country</li>
+            <div className="flex flex-col lg:text-left text-center">
+              <h3 className="text-xl lg:text-left text-center font-bold mb-4">Contact</h3>
+              <ul className="lg:text-left text-center space-y-2 mb-4">
+                <li>Email: info@thecareervalley.com</li>
+                <li>Phone: +91 8309-071632</li>
+                <li>Address: Inderaprastha, Hyderabad, Telengana</li>
               </ul>
-              <div className="flex space-x-4">
+              <div className="flex items-center lg:justify-start justify-center space-x-4">
                 <a href="#" className="text-[#2A675C] hover:text-black">
                   <FaFacebookF />
                 </a>

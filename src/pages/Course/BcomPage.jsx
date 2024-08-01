@@ -113,36 +113,62 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Shri Ram College of Commerce (SRCC)",
-    location: "Delhi",
-    rank: 1,
-    siteUrl: "https://www.srcc.du.ac.in/",
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
   },
   {
-    name: "Lady Shri Ram College for Women (LSR)",
-    location: "Delhi",
-    rank: 2,
-    siteUrl: "https://www.lsr.edu.in/",
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
   },
   {
-    name: "Hindu College",
-    location: "Delhi",
-    rank: 3,
-    siteUrl: "https://www.hinducollege.ac.in/",
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
   },
   {
-    name: "Symbiosis College of Arts and Commerce",
-    location: "Pune",
-    rank: 4,
-    siteUrl: "https://www.symbiosis.ac.in/",
+    name: "Accurate Group of Institutions",
+    location: "Greater Noida, Uttar Pradesh",
+    siteUrl: "https://www.accurate.in/",
   },
   {
-    name: "Christ University",
-    location: "Bangalore",
-    rank: 5,
-    siteUrl: "https://www.christuniversity.in/",
+    name: "R V University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://rvu.edu.in/",
   },
+  {
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
+  },
+  {
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
+  },
+  {
+    name: "Graphic Era University",
+    location: "Dehradun, Uttarakhand",
+    siteUrl: "https://geu.ac.in/",
+  },
+  {
+    name: "ISBR",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.isbr.in/",
+  },
+  {
+    name: "Gitam",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://www.gitam.edu/",
+  },
+  {
+    name: "SOIM",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://soim.edu.in/",
+  }
 ];
+
 
 const streams = [
   {
@@ -431,7 +457,6 @@ const BcomPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

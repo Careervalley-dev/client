@@ -34,10 +34,43 @@ const privateCollege = [
 ];
 
 const featuredCollege = [
-  { name: "Indian Institute of Technology Hyderabad (IIT Hyderabad)", location: "Hyderabad, Telangana", rank: 1, siteUrl: "https://www.iith.ac.in/" },
-  { name: "Indian Institute of Technology Guwahati (IIT Guwahati)", location: "Guwahati, Assam", rank: 2, siteUrl: "https://www.iitg.ac.in/" },
-  { name: "National Institute of Technology Tiruchirappalli (NIT Trichy)", location: "Tiruchirappalli, Tamil Nadu", rank: 3, siteUrl: "https://www.nitt.edu/" }
+  {
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
+  },
+  {
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
+  },
+  {
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
+  },
+  {
+    name: "Graphic Era University",
+    location: "Dehradun, Uttarakhand",
+    siteUrl: "https://geu.ac.in/",
+  },
+  {
+    name: "R V University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://rvu.edu.in/",
+  },
+  {
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
+  },
+  {
+    name: "Gitam",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://www.gitam.edu/",
+  }
 ];
+
 
 const streams = [
   { name: "Computer Science and Engineering", icon: <FaLaptopCode className="text-4xl text-[#235950]" /> },
@@ -192,7 +225,6 @@ const MtechPage = () => {
                   <div key={index} className={`mb-4 ${index < featuredCollege.length - 1 ? 'border-b border-gray-200 pb-4' : ''}`}>
                     <h4 className="text-lg font-bold"><Link to={college.siteUrl} className='hover:text-black text-[#235950]'>{college.name}</Link></h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

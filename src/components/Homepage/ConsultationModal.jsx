@@ -39,7 +39,7 @@ const ConsultationModal = ({ isOpen, onClose }) => {
             <div className="flex flex-col lg:flex-row justify-center items-center gap-x-9">
               <div className="flex flex-col justify-center mb-8">
                 <a
-                  href="mailto:contact@career-valley.com"
+                  href="/contact_us"
                   className="bg-white flex flex-col lg:flex-row justify-center items-centers text-[#235950] py-2 px-6 rounded-lg hover:bg-gray-200 transition-all book-now-container"
                 >
                   <span className="book-now-text">Book Now</span>

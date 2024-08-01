@@ -113,34 +113,44 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Indian Institute of Management (IIM) Ahmedabad",
-    location: "Ahmedabad",
-    rank: 1,
-    siteUrl: "https://www.iimahd.ac.in/",
+    name: "Flame University",
+    location: "Pune, Maharashtra",
+    siteUrl: "https://www.flame.edu.in/",
   },
   {
-    name: "Indian School of Business (ISB)",
-    location: "Hyderabad",
-    rank: 2,
-    siteUrl: "https://www.isb.edu/",
+    name: "ITM University",
+    location: "Vadodara, Gujarat",
+    siteUrl: "https://www.itm.edu/",
   },
   {
-    name: "Xavier Labour Relations Institute (XLRI)",
-    location: "Jamshedpur",
-    rank: 3,
-    siteUrl: "https://www.xlri.ac.in/",
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
   },
   {
-    name: "Delhi University (DU)",
-    location: "Delhi",
-    rank: 4,
-    siteUrl: "https://www.du.ac.in/",
+    name: "Vishwa Vishwani School of Business",
+    location: "Hyderabad, Telangana",
+    siteUrl: "https://www.vishwavishwani.ac.in/",
   },
   {
-    name: "Symbiosis Institute of Business Management (SIBM) Pune",
-    location: "Pune",
-    rank: 5,
-    siteUrl: "https://www.sibm.edu/",
+    name: "Badruka School of Management",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://www.badrukaschoolofmanagement.edu.in/",
+  },
+  {
+    name: "Lyod Business School(Noida)",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.lloydbusinessschool.edu.in/",
+  },
+  {
+    name: "ISBR",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.isbr.in/",
+  },
+  {
+    name: "Sparsh (Noida)",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.sparshgbs.in/",
   },
 ];
 
@@ -428,7 +438,6 @@ const BbaPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

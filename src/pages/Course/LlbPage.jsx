@@ -108,41 +108,37 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
-    location: "Kharagpur, West Bengal",
-    rank: 1,
-    siteUrl: "https://www.iitkgp.ac.in/",
-    program: "B.Tech + LLB (Hons.)",
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
   },
   {
-    name: "Azim Premji University Bangalore",
-    location: "Bangalore, Karnataka",
-    rank: 2,
-    siteUrl: "https://azimpremjiuniversity.edu.in/",
-    program: "BA + LLB (Hons.)",
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
   },
   {
-    name: "Ashoka University Sonipat",
-    location: "Sonipat, Haryana",
-    rank: 3,
-    siteUrl: "https://www.ashoka.edu.in/",
-    program: "BA + LLB (Hons.)",
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
   },
   {
-    name: "National Law School of India University (NLSIU)",
-    location: "Bangalore, Karnataka",
-    rank: 4,
-    siteUrl: "https://www.nls.ac.in/",
-    program: "LLB",
+    name: "Accurate Group of Institutions",
+    location: "Greater Noida, Uttar Pradesh",
+    siteUrl: "https://www.accurate.in/",
   },
   {
-    name: "Indian Institute of Management Calcutta (IIM Calcutta)",
-    location: "Kolkata, West Bengal",
-    rank: 5,
-    siteUrl: "https://www.iimcal.ac.in/",
-    program: "BBA + LLB (Hons.)",
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
   },
+  {
+    name: "ISBR",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.isbr.in/",
+  }
 ];
+
 
 const streams = [
   {
@@ -441,7 +437,6 @@ const LlbPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

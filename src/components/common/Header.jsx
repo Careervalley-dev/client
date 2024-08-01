@@ -97,7 +97,7 @@ const Header = () => {
     >
       <div className="bg-[#2A675C] flex flex-col lg:flex-row py-2 text-white lg:h-[45px] justify-center items-center">
         <p>Our Events are live now 🎉</p>
-        <button className="bg-[#2A675C] mt-2 lg:mt-0 ring-white ring-1 text-white px-6 py-1 rounded-md shadow-lg hover:bg-[#24594e] transition duration-300 ease-in-out lg:ml-4">Register</button>
+        <button className="bg-[#2A675C] mt-2 lg:mt-0 ring-white ring-1 text-white px-6 py-1 rounded-md shadow-lg hover:bg-[#24594e] transition duration-300 ease-in-out lg:ml-4"><Link to="/events">Register</Link></button>
       </div>
 
 

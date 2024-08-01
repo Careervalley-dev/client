@@ -765,3 +765,9 @@ body {
     animation: floating 3s ease-in-out infinite;
   }
   
+
+  .marquee-container .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

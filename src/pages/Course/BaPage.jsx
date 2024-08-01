@@ -174,37 +174,34 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Indian Institute of Science Education and Research (IISER) Pune",
-    location: "Pune, Maharashtra",
-    specializations: [
-      "Science (Integrated Program)",
-      "Mathematics (Integrated Program)",
-    ],
-    siteUrl: "https://www.iiserpune.ac.in/",
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
   },
   {
-    name: "Ashoka University",
+    name: "SRM UNIVERSITY",
     location: "Sonipat, Haryana",
-    specializations: [
-      "Liberal Arts (Interdisciplinary Programs)",
-      "Economics",
-      "Political Science",
-      "History",
-      "English Literature",
-    ],
-    siteUrl: "https://www.ashoka.edu.in/",
+    siteUrl: "https://srmuniversity.ac.in/",
   },
   {
-    name: "Azim Premji University",
-    location: "Bengaluru, Karnataka",
-    specializations: [
-      "Development Studies",
-      "Education",
-      "Law",
-      "Public Policy",
-      "Humanities",
-    ],
-    siteUrl: "https://www.azimpremjiuniversity.edu.in/",
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
+  },
+  {
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
+  },
+  {
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
+  },
+  {
+    name: "GITAM, Hyderabad",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://www.gitam.edu/",
   },
 ];
 
@@ -482,7 +479,7 @@ const BaPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
+                    {/* <p>Rank: {college.rank}</p> */}
                   </div>
                 ))}
               </div>

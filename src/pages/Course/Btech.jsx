@@ -34,9 +34,14 @@ const privateCollege = [
 ];
 
 const featuredCollege = [
-  { name: "Indian Institute of Technology Hyderabad (IIT Hyderabad)", location: "Hyderabad, Telangana", rank: 1, siteUrl: "https://www.iith.ac.in/" },
-  { name: "Indian Institute of Technology Guwahati (IIT Guwahati)", location: "Guwahati, Assam", rank: 2, siteUrl: "https://www.iitg.ac.in/" },
-  { name: "National Institute of Technology Tiruchirappalli (NIT Trichy)", location: "Tiruchirappalli, Tamil Nadu", rank: 3, siteUrl: "https://www.nitt.edu/" }
+  { name: "Amity University", location: "Noida, New Delhi", siteUrl: "https://www.amity.edu/" },
+  { name: "GNIOT Group of Institutes", location: "Greater Noida, UP", siteUrl: "https://www.gniotgroup.edu.in/" },
+  { name: "SRM UNIVERSITY", location: "Sonepat, Haryana", siteUrl: "https://srmuniversity.ac.in/" },
+  { name: "Accurate Group of Institutions",  location: "Greater Noida, UP", siteUrl: "https://www.accurate.in/" },
+  { name: "R V University", location: "Bengaluru, Karnataka", siteUrl: "https://rvu.edu.in/" },
+  { name: "Mody University", location: "Sikar, Rajasthan", siteUrl: "https://www.modyuniversity.ac.in/" },
+  { name: "Graphic Era University", location: "Dehradun, Uttarakhand", siteUrl: "https://geu.ac.in/" },
+  { name: "GITAM", location: "Hyderabad, Telangana", siteUrl: "https://geu.ac.in/" },
 ];
 
 const streams = [
@@ -87,7 +92,7 @@ const BtechPage = () => {
 
       <main className="container mx-auto pb-12 pt-12 lg:pt-24 px-6">
         <section id="course-details" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><PiStudent className="mr-2"/> Course Details</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><PiStudent className="mr-2" /> Course Details</h2>
           <ul className="custom-list list-inside bg-gray-100 p-6 rounded-lg shadow-sm text-lg leading-relaxed">
             <li>B.Tech (Bachelor of Technology) is a four-year undergraduate program.</li>
             <li>Focuses on core engineering principles and practical skills.</li>
@@ -96,7 +101,7 @@ const BtechPage = () => {
         </section>
 
         <section id="streams" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><FaLaptopCode className="mr-2"/> Associated Streams</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><FaLaptopCode className="mr-2" /> Associated Streams</h2>
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {streams.map((stream, index) => (
               <div key={index} className="flex flex-col items-center text-center bg-white shadow-md rounded-lg p-6">
@@ -108,7 +113,7 @@ const BtechPage = () => {
         </section>
 
         <section id="eligibility-criteria" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><IoMdCheckmarkCircleOutline className="mr-2"/> Eligibility Criteria</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><IoMdCheckmarkCircleOutline className="mr-2" /> Eligibility Criteria</h2>
           <ul className="custom-list list-inside bg-gray-100 p-6 rounded-lg shadow-sm text-lg leading-relaxed">
             <li>Completion of 10+2 education with a background in Mathematics, Physics, and Chemistry.</li>
             <li>Admission is typically based on entrance exams and academic performance.</li>
@@ -116,7 +121,7 @@ const BtechPage = () => {
         </section>
 
         <section id="top-exams" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><TfiWrite className="mr-2"/> Top Exams</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><TfiWrite className="mr-2" /> Top Exams</h2>
           <div className="overflow-x-auto bg-white shadow-md rounded-lg">
             <table className="w-full text-sm text-left text-gray-700">
               <thead className="text-xs uppercase bg-gray-200 text-gray-600">
@@ -145,7 +150,7 @@ const BtechPage = () => {
 
         <section id="placement-details" className="mb-12">
           <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center">
-          <FaBriefcase className="mr-2" /> Career Prospects
+            <FaBriefcase className="mr-2" /> Career Prospects
           </h2>
           <ul className="custom-list list-inside bg-gray-100 p-6 rounded-lg shadow-sm text-lg leading-relaxed">
             <li>Internships and on-campus recruitment opportunities are available for B.Tech students.</li>
@@ -154,7 +159,7 @@ const BtechPage = () => {
         </section>
 
         <section id="top-colleges" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><LiaUniversitySolid className="mr-2"/> Top Colleges</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#235950] flex items-center"><LiaUniversitySolid className="mr-2" /> Top Colleges</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div>
               <h3 className="text-2xl font-semibold mb-2 text-[#235950]">Government Colleges</h3>
@@ -187,9 +192,10 @@ const BtechPage = () => {
               <div className="bg-white shadow-md rounded-lg p-6">
                 {featuredCollege.map((college, index) => (
                   <div key={index} className={`mb-4 ${index < featuredCollege.length - 1 ? 'border-b border-gray-200 pb-4' : ''}`}>
-                    <h4 className="text-lg font-bold"><Link to={college.siteUrl} className='hover:text-black text-[#235950]'>{college.name}</Link></h4>
+                    <div className='flex'>
+                      <h4 className="text-lg font-bold"><Link to={college.siteUrl} className='hover:text-black text-[#235950]'>{college.name}</Link></h4>
+                    </div>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

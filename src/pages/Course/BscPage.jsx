@@ -105,36 +105,57 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Indian Institute of Science (IISc), Bangalore",
-    location: "Bangalore, Karnataka",
-    rank: 1,
-    siteUrl: "https://www.iisc.ac.in",
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
   },
   {
-    name: "Indian Institute of Technology (IIT), Bombay",
-    location: "Mumbai, Maharashtra",
-    rank: 2,
-    siteUrl: "https://www.iitb.ac.in",
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
   },
   {
-    name: "Indian Institute of Technology (IIT), Delhi",
-    location: "New Delhi, Delhi",
-    rank: 3,
-    siteUrl: "https://home.iitd.ac.in",
+    name: "Flame University",
+    location: "Pune, Maharashtra",
+    siteUrl: "https://www.flame.edu.in/",
   },
   {
-    name: "Banaras Hindu University (BHU), Varanasi",
-    location: "Varanasi, Uttar Pradesh",
-    rank: 4,
-    siteUrl: "https://www.bhu.ac.in",
+    name: "ITM University",
+    location: "Vadodara, Gujarat",
+    siteUrl: "https://www.itm.edu/",
   },
   {
-    name: "University of Hyderabad (UoH), Hyderabad",
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
+  },
+  {
+    name: "R V University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://rvu.edu.in/",
+  },
+  {
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
+  },
+  {
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
+  },
+  {
+    name: "Graphic Era University",
+    location: "Dehradun, Uttarakhand",
+    siteUrl: "https://geu.ac.in/",
+  },
+  {
+    name: "Gitam",
     location: "Hyderabad, Telangana",
-    rank: 5,
-    siteUrl: "https://www.uohyd.ac.in",
-  },
+    siteUrl: "https://www.gitam.edu/",
+  }
 ];
+
 
 const streams = [
   {
@@ -417,7 +438,6 @@ const BscPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>

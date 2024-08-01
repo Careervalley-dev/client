@@ -114,36 +114,97 @@ const privateCollege = [
 
 const featuredCollege = [
   {
-    name: "Indian Institute of Management (IIM) Ahmedabad",
-    location: "Ahmedabad, Gujarat",
-    rank: 1,
-    siteUrl: "https://www.iimahd.ac.in/",
+    name: "ISBR",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.isbr.in/",
   },
   {
-    name: "Indian Institute of Management (IIM) Bangalore",
+    name: "Mangalmay Group of Institutions",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.mangalmay.org/",
+  },
+  {
+    name: "Graphic Era University",
+    location: "Dehradun, Uttarakhand",
+    siteUrl: "https://geu.ac.in/",
+  },
+  {
+    name: "Poddar Group of Institutions",
+    location: "Jaipur, Rajasthan",
+    siteUrl: "https://www.poddarinstitute.org/",
+  },
+  {
+    name: "R V University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://rvu.edu.in/",
+  },
+  {
+    name: "SRM UNIVERSITY",
+    location: "Sonepat, Haryana",
+    siteUrl: "https://srmuniversity.ac.in/",
+  },
+  {
+    name: "GNIOT Group of Institutes",
+    location: "Greater Noida, UP",
+    siteUrl: "https://www.gniotgroup.edu.in/",
+  },
+  {
+    name: "Amity University",
+    location: "Noida, New Delhi",
+    siteUrl: "https://www.amity.edu/",
+  },
+  {
+    name: "Alliance University",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://www.alliance.edu.in/",
+  },
+  {
+    name: "Flame University",
+    location: "Pune, Maharashtra",
+    siteUrl: "https://www.flame.edu.in/",
+  },
+  {
+    name: "S.P MANDALI's WE SCHOOL (Welingkar)",
     location: "Bangalore, Karnataka",
-    rank: 2,
-    siteUrl: "https://www.iimb.ac.in/",
+    siteUrl: "https://www.welingkar.org/",
   },
   {
-    name: "Indian Institute of Management (IIM) Calcutta",
-    location: "Kolkata, West Bengal",
-    rank: 3,
-    siteUrl: "https://www.iimcal.ac.in/",
+    name: "ITM University",
+    location: "Vadodara, Gujarat",
+    siteUrl: "https://www.itm.edu/",
   },
   {
-    name: "Indian School of Business (ISB)",
+    name: "Vishwa Vishwani School of Business",
     location: "Hyderabad, Telangana",
-    rank: 4,
-    siteUrl: "https://www.isb.edu/",
+    siteUrl: "https://www.vishwavishwani.ac.in/",
   },
   {
-    name: "Xavier Labour Relations Institute (XLRI)",
-    location: "Jamshedpur, Jharkhand",
-    rank: 5,
-    siteUrl: "https://www.xlri.ac.in/",
+    name: "SSIM",
+    location: "Hyderabad, Telangana",
+    siteUrl: "https://ssim.ac.in/",
   },
+  {
+    name: "INurture Education Solutions",
+    location: "Bengaluru, Karnataka",
+    siteUrl: "https://inurture.co.in/",
+  },
+  {
+    name: "Accurate Group of Institutions",
+    location: "Greater Noida, Uttar Pradesh",
+    siteUrl: "https://www.accurate.in/",
+  },
+  {
+    name: "Mody University",
+    location: "Sikar, Rajasthan",
+    siteUrl: "https://www.modyuniversity.ac.in/",
+  },
+  {
+    name: "Nicmar",
+    location: "Hyderabad, Telengana",
+    siteUrl: "https://www.nicmar.ac.in/hyderabad/campus",
+  }
 ];
+
 
 const streams = [
   {
@@ -429,7 +490,6 @@ const MbaPage = () => {
                       </Link>
                     </h4>
                     <p>{college.location}</p>
-                    <p>Rank: {college.rank}</p>
                   </div>
                 ))}
               </div>
