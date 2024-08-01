@@ -155,6 +155,7 @@ const Marquee = () => {
     autoplaySpeed: 0,
     cssEase: 'linear',
     variableWidth: true,
+    arrows: false,
   };
 
   return (
