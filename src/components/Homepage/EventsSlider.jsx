@@ -138,10 +138,10 @@ const EventsSlider = () => {
     <div>
       <Heading normalText="Our upcoming" highlightText="Events!"/>
       <div className="container h-[600px] flex justify-center items-center lg:mx-auto px-4 relative">
-        <div className="flex justify-between items-center mt-8 absolute top-1/2 right-[10px] lg:right-[-20px]">
+        <div className="flex justify-between items-center mt-8 absolute top-1 lg:top-1 right-[160px] lg:right-[110px]">
           <button
             onClick={goToEventsPage}
-            className="z-1000 bg-[#235950] hover:bg-gray-400 text-white font-bold py-4 px-4 rounded-full"
+            className="flex justify-center items-center bg-[#235950] text-white p-2 rounded-md shadow-lg hover:bg-gray-700 focus:outline-none z-10"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
