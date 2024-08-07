@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Heading from '../../common/Heading';
 
 const colleges = [
   {
@@ -69,7 +68,7 @@ const colleges = [
     name: "Accurate Group of Institutions",
     location: "Greater Noida, Uttar Pradesh",
     siteUrl: "https://www.accurate.in/",
-    imgUrl: "https://res.cloudinary.com/du3i8e0se/image/upload/v1722454674/accurate_tgi1mg.png",
+    imgUrl: "https://res.cloudinary.com/du3i8e0se/image/upload/v1722512700/accurate__2_-removebg-preview_kvqszs.png",
   },
   {
     name: "R V University",
@@ -155,10 +154,11 @@ const Marquee = () => {
     autoplaySpeed: 0,
     cssEase: 'linear',
     variableWidth: true,
+    arrows: false,
   };
 
   return (
-    <div className="marquee-container bg-gradient-to-b lg:bg-gradient-to-br from-[#426e66] via-[#093029] to-[#0f312c] py-28">
+    <div className="marquee-container bg-gradient-to-b lg:bg-gradient-to-br from-[#426e66] via-[#093029] to-[#0f312c] mt-8 py-28">
       <Slider {...settings}>
         {colleges.map((college, index) => (
           <div key={index} className="p-2">
@@ -166,7 +166,7 @@ const Marquee = () => {
               <img
                 src={college.imgUrl}
                 alt={college.name}
-                className="w-58 h-24 object-contain mx-auto p-3 bg-gray-400 rounded-md"
+                className="w-32 h-24 object-contain mx-auto px-4 py-2 bg-white/60 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               />
             </a>
           </div>

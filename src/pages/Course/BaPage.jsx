@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GrWorkshop } from "react-icons/gr";
 import { TfiWrite } from "react-icons/tfi";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { PiStudent } from "react-icons/pi";
@@ -12,7 +11,6 @@ import {
   FaMicrophone,
   FaChartLine,
   FaBalanceScale,
-  FaCamera,
   FaBriefcase,
   FaLaptopCode,
 } from "react-icons/fa";

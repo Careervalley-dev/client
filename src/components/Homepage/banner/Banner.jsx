@@ -7,7 +7,7 @@ const Banner = () => {
   const closeModal = () => setModalIsOpen(false);
 
   return (
-    <div className="relative h-[90vh] pt-40 bg-cover bg-center text-black py-12 px-6" style={{ backgroundImage: "url('https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch')" }}>
+    <div className="relative h-[90vh] pt-52 lg:pt-40 bg-cover bg-center text-black py-12 px-6" style={{ backgroundImage: "url('https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch')" }}>
       <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-white lg:via-white/90 to-transparent"></div>
       <div className='flex flex-col lg:flex-row justify-between'>
         {/* LEFT SECTION */}

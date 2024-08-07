@@ -771,3 +771,15 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+/* Custom scrollbar styles */
+.swiper-scrollbar {
+  background: #f0f0f0; /* Background color of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+.swiper-scrollbar-drag {
+  background: #235950; /* Color of the draggable part of the scrollbar */
+  border-radius: 4px; /* Rounded corners for the scrollbar */
+}
+

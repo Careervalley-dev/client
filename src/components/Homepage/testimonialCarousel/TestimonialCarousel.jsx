@@ -110,7 +110,7 @@ const TestimonialCarousel = () => {
     <div>
       <Heading normalText="Our" highlightText="Testimonials!"/>
       <div className="container h-[600px] flex justify-center items-center lg:mx-auto px-4 relative">
-        <Slider {...settings} className="lg:py-16 w-[400px] md:w-[768px] lg:w-[1300px]">
+        <Slider {...settings} className="lg:py-16 w-[400px] md:w-[768px] lg:w-[1400px]">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}

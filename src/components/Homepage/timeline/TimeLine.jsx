@@ -111,7 +111,8 @@ const events = [
 
 const getLeftPosition = () => {
   const width = window.innerWidth;
-  if (width < 545) return "7.6%";
+  if (width < 480) return "7.6%";
+  else if(width >=480 && width <= 545) return "5.8%";
   else if (width >= 546 && width <= 760) return "6.1%";
   else if (width >= 761 && width <= 1024) return "4.85%";
   return "48.67%";
@@ -217,7 +218,7 @@ export default function TimelineComponent() {
                   className="timeline-connector hidden lg:block"
                   ref={(el) => (connectorRefs.current[index] = el)}
                   sx={{
-                    bgcolor: "grey",
+                    bgcolor: "#2A675C",
                     height: "150px",
                   }}
                 />
@@ -241,7 +242,7 @@ export default function TimelineComponent() {
                   className="timeline-connector hidden lg:block"
                   ref={(el) => (connectorRefs.current[index] = el)}
                   sx={{
-                    bgcolor: "grey",
+                    bgcolor: "#2A675C",
                     height: "150px",
                   }}
                 />
@@ -347,8 +348,7 @@ export default function TimelineComponent() {
                 <TimelineConnector
                   className="block lg:hidden"
                   sx={{
-                    borderStyle: "dotted",
-                    // borderColor: styles.connectorColor,
+                    bgcolor: "#2A675C",
                     height: "250px",
                   }}
                 />
@@ -371,8 +371,7 @@ export default function TimelineComponent() {
                 <TimelineConnector
                   className="block lg:hidden"
                   sx={{
-                    borderStyle: "dotted",
-                    // borderColor: styles.connectorColor,
+                    bgcolor: "#2A675C",
                     height: "250px",
                   }}
                 />

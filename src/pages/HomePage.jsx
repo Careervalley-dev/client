@@ -16,11 +16,11 @@ const HomePage = () => {
       <Banner1 />
       <RegistrationModal />
       <TimelineComponent />
-      <TestimonialCarousel />
       {/* <Orbit /> */}
       <EventsSlider />
+      <TestimonialCarousel />
       <Marquee />
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   );
 };

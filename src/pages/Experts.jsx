@@ -122,8 +122,8 @@ const Experts = () => {
               </p>
               <p className="text-lg">
                 Phone:{" "}
-                <a href="tel:+1234567890" className="underline">
-                  +1 (234) 567-890
+                <a href="tel:8309071632" className="underline">
+                  +91 8309071632
                 </a>
               </p>
             </div>
