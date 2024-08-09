@@ -5,6 +5,7 @@ import api from '../../api/api';
 
 const initialState = {
   events: [],
+  event: null,
   registeredUsers: [],
   status: 'idle',
   error: null,
@@ -57,6 +58,19 @@ export const fetchEventsByStatus = createAsyncThunk(
   }
 );
 
+// Async thunk for fetching event by ID
+export const fetchEventById = createAsyncThunk(
+  'events/fetchEventById',
+  async (eventId, { rejectWithValue }) => {
+    try {
+      const response = await api.get(`/api/events/event/${eventId}`);
+      return response.data;
+    } catch (error) {
+      return rejectWithValue(error.response.data);
+    }
+  }
+);
+
 const eventSlice = createSlice({
   name: 'events',
   initialState,
@@ -83,7 +97,7 @@ const eventSlice = createSlice({
       })
       .addCase(fetchAllEvents.fulfilled, (state, action) => {
         state.status = 'succeeded';
-        state.events = action.payload;
+        state.events = action.payload.events;
       })
       .addCase(fetchAllEvents.rejected, (state, action) => {
         state.status = 'failed';
@@ -94,9 +108,20 @@ const eventSlice = createSlice({
       })
       .addCase(fetchEventsByStatus.fulfilled, (state, action) => {
         state.status = 'succeeded';
-        state.events = action.payload;
+        state.events = action.payload.events;
       })
       .addCase(fetchEventsByStatus.rejected, (state, action) => {
+        state.status = 'failed';
+        state.error = action.payload;
+      })
+      .addCase(fetchEventById.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(fetchEventById.fulfilled, (state, action) => {
+        state.status = 'succeeded';
+        state.event = action.payload.event;
+      })
+      .addCase(fetchEventById.rejected, (state, action) => {
         state.status = 'failed';
         state.error = action.payload;
       });

@@ -14,7 +14,8 @@ import Team from './pages/Team';
 import Experts from './pages/Experts';
 import Colleges from './pages/Colleges';
 import Courses from './pages/Courses';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import Loader2 from './components/common/loader2/Loader2';
 
 
 const AuthPages = [
@@ -29,6 +30,34 @@ function App() {
   const location = useLocation();
   const currentPath = location.pathname;
   const isAuthPage = AuthPages.some(page => currentPath.startsWith(page));
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // 2 seconds delay
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500); // 2 seconds delay for each route change
+
+    return () => clearTimeout(timer);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  if (loading) {
+    return (
+      <Loader2 />
+    );
+  }
 
   return (
     <>

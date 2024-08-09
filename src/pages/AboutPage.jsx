@@ -99,68 +99,6 @@ const AboutPage = () => {
         </section>
 
         <FounderProfile />
-        {/* <section className="ring-2 mb-12 px-6 py-4 mx-4 ring-black rounded-lg bg-white shadow-lg">
-          <p className="mt-2 text-[18px]">
-            <strong>Experience:</strong> Over a decade in higher education admissions <br />
-            <strong>Specialization:</strong> Student counseling, university admissions, career guidance
-          </p>
-          <p className="text-[18px]">
-            <strong>Collaborations:</strong> Worked with leading institutions like WOXSEN, IMT, iNurture, and Mahindra Education.
-          </p>
-
-          <div className="mt-6">
-            <h3 className="text-xl font-dosis font-semibold text-gray-800">Professional Summary</h3>
-            <p className="mt-2 text-[18px] text-gray-700">
-              Divya Rupainwar is a seasoned expert in higher education admissions in India, with over a decade of experience. She has guided more than 10,000 students in making informed decisions about their academic and career paths.
-            </p>
-
-            <h3 className="text-xl font-dosis font-semibold text-gray-800 mt-6">Career Highlights</h3>
-
-            <h3 className="text-xl font-dosis font-semibold text-gray-800 mt-6">Expertise</h3>
-            <p className="mt-2 text-[18px] text-gray-700">
-              <strong>Student Counseling:</strong> Personalized advice for educational paths. <br />
-              <strong>University Admissions:</strong> Facilitating connections between students and top universities. <br />
-              <strong>Career Guidance:</strong> Ongoing support for career success.
-            </p>
-
-            <h3 className="text-xl font-dosis font-semibold text-gray-800 mt-6">Mission</h3>
-            <p className="mt-2 text-[18px] text-gray-700">
-              To empower students to achieve their highest potential by providing them with the knowledge and tools to make informed educational decisions.
-            </p>
-
-            <h3 className="text-xl font-dosis font-semibold text-gray-800 mt-6">Achievements</h3>
-            <p className="mt-2 text-[18px] text-gray-700">
-              Guided over 10,000 students. <br />
-              Built strong partnerships with top educational institutions. <br />
-              Established Career Valley as a trusted name in higher education.
-            </p>
-
-            <h3 className="text-xl font-dosis font-semibold text-gray-800 mt-6">Contact Information</h3>
-            <p className="mt-2 text-[18px] text-gray-700">
-              <strong>Email:</strong> divya@careervalley.com <br />
-              <strong>Phone:</strong> +91-123-456-7890 <br />
-              <strong>Website:</strong>
-              <Link to="https://www.careervalley.com" className="text-blue-600 hover:underline">
-                www.careervalley.com
-              </Link>
-            </p>
-
-            <div className="mb-4 gap-x-4 flex text-[18px] mt-4">
-              <Link to="https://www.linkedin.com/in/aditya--sahu89/" className="hover:text-[#2d49ff]">
-                <FaLinkedin />
-              </Link>
-              <Link to="https://www.facebook.com" className="hover:text-[#3470fb]">
-                <FaFacebook />
-              </Link>
-              <Link to="https://www.instagram.com" className="hover:text-[#ea3773]">
-                <FaInstagram />
-              </Link>
-              <Link to="mailto:divya@careervalley.com" className="hover:text-red-600">
-                <FaEnvelope />
-              </Link>
-            </div>
-          </div>
-        </section> */}
 
         {/* Our Future */}
         <section className="text-left mb-12 font-cat bg-white p-4 flex flex-col justify-center items-center">

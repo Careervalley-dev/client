@@ -52,7 +52,7 @@ const Team = () => {
           <div className="flex flex-col justify-center bg-white items-center py-12 lg:justify-none">
             <section className="grid grid-cols-1 md:grid-cols-3 gap-y-8 lg:gap-x-20 lg:pl-16">
               {teamMembers.map((member) => (
-                <TeamMemberCard key={member.name} {...member} />
+                <TeamMemberCard key={member.designation} {...member} />
               ))}
             </section>
           </div>

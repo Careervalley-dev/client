@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../../redux/features/authSlice'; // Adjust the import path as necessary
 import { FiMail, FiKey } from 'react-icons/fi';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Loader from '../../../components/common/loader/Loader';
 
 const LoginForm = () => {
@@ -10,13 +10,15 @@ const LoginForm = () => {
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const location = useLocation(); // To get the location state
   const { user, loading, error } = useSelector((state) => state.auth);
 
   useEffect(() => {
     if (user) {
-      navigate("/");
+      const from = location.state?.from?.pathname || "/";
+      navigate(from);
     }
-  }, [user, navigate]);
+  }, [user, navigate, location]);
 
   const handleSubmit = (e) => {
     e.preventDefault();

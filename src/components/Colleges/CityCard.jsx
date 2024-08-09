@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CityCard = ({ imgLink, title, desc, pageUrl }) => {
   return (
-    <section id="card1" className="card">
+    <section id="card_a" className="card_a">
       <img src={imgLink} className="card__image" />
       <div className="card__content">
         <Link to={pageUrl}>

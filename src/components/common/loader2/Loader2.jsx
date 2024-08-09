@@ -1,7 +1,7 @@
 import React from 'react';
-import './loader.css'; // Ensure this file contains the relevant CSS
+import './loader2.css';
 
-const Loader = () => {
+const Loader2 = () => {
     return (
         <div className="overlay">
             <div id="page">
@@ -19,4 +19,4 @@ const Loader = () => {
     );
 }
 
-export default Loader;
+export default Loader2;

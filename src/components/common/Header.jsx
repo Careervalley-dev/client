@@ -247,14 +247,14 @@ const Header = () => {
               {isEventsOpen && (
                 <div className="absolute mt-6 w-[160px] text-black bg-white border rounded shadow-lg z-20">
                   <Link
-                    to="/events?tab=upcoming"
+                    to="/events?tab=Upcoming"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
                     <span className="text-[16px] text-[#2A675C]">Upcoming</span>
                   </Link>
                   <Link
-                    to="/events?tab=recent"
+                    to="/events?tab=Recent"
                     className="block px-4 py-2 hover:bg-gray-200"
                     onClick={handleOptionSelect}
                   >
@@ -498,8 +498,8 @@ const Header = () => {
               </button>
               {isEventsOpen && (
                 <div className="flex flex-col pl-6 space-y-2">
-                  <Link to="/events?tab=upcoming" className="hover:underline text-[white]" onClick={handleOptionSelect}>Upcoming</Link>
-                  <Link to="/events?tab=recent" className="hover:underline text-[white]" onClick={handleOptionSelect}>Recent</Link>
+                  <Link to="/events?tab=Upcoming" className="hover:underline text-[white]" onClick={handleOptionSelect}>Upcoming</Link>
+                  <Link to="/events?tab=Recent" className="hover:underline text-[white]" onClick={handleOptionSelect}>Recent</Link>
                 </div>
               )}
             </div>

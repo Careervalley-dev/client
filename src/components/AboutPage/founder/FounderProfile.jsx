@@ -38,7 +38,7 @@ const ExpertProfileCarousel = () => {
         >
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white p-4 shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Professional Summary</h3>
                     <div className='mt-2'>
                         <div className="flex justify-start">
@@ -56,7 +56,7 @@ const ExpertProfileCarousel = () => {
 
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 bg-white p-4 ring-[#235950] rounded-lg shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Experience & Specialization</h3>
                     <ul className="mt-2 custom-list text-[18px] text-[#235950] list-inside">
                         <li className="custom-bullet">
@@ -74,7 +74,7 @@ const ExpertProfileCarousel = () => {
 
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white p-4 shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Expertise</h3>
                     <ul className="mt-2 custom-list text-[18px] text-[#235950] list-inside">
                         <li className="custom-bullet">
@@ -91,7 +91,7 @@ const ExpertProfileCarousel = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white p-4 shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Mission</h3>
                     <div className='mt-2'>
                         <div className="flex justify-start">
@@ -108,7 +108,7 @@ const ExpertProfileCarousel = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white p-4 shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Achievements</h3>
                     <ul className="custom-list list-inside mt-2 text-[18px] text-[#235950]">
                         <li className="">Guided over 10,000 students.</li>
@@ -119,27 +119,27 @@ const ExpertProfileCarousel = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
+                <section className="lg:h-[230px] h-[400px] ring-2 my-12 px-6 py-4 mx-4 ring-[#235950] rounded-lg bg-white p-4 shadow-lg transition-all duration-300 transform hover:scale-95 hover:shadow-2xl">
                     <h3 className="text-xl font-bold text-[#235950] mt-2">Contact Information</h3>
                     <p className="mt-2 text-[18px] text-[#235950]">
-                        <strong>Email:</strong> divya@careervalley.com <br />
+                        <strong>Email:</strong> divya@thecareervalley.com <br />
                         <strong>Phone:</strong> +91-123-456-7890 <br />
                         <strong>Website:</strong> {" "}
                         <Link to="https://www.careervalley.com" className="hover:underline">
-                            www.careervalley.com
+                            www.thecareervalley.com
                         </Link>
                     </p>
                     <div className="mb-4 gap-x-4 flex text-[#235950] text-[18px] mt-4">
-                        <Link to="https://www.linkedin.com/in/aditya--sahu89/" className="hover:text-[#2d49ff]">
+                        <Link to="https://www.linkedin.com/in/divya-rupainwar-b90b3961//" className="hover:text-[#2d49ff]">
                             <FaLinkedin />
                         </Link>
                         <Link to="https://www.facebook.com" className="hover:text-[#3470fb]">
                             <FaFacebook />
                         </Link>
-                        <Link to="https://www.instagram.com" className="hover:text-[#ea3773]">
+                        <Link to="https://www.instagram.com/divya_rupainwar/" className="hover:text-[#ea3773]">
                             <FaInstagram />
                         </Link>
-                        <Link to="mailto:divya@careervalley.com" className="hover:text-red-600">
+                        <Link to="mailto:divya@thecareervalley.com" className="hover:text-red-600">
                             <FaEnvelope />
                         </Link>
                     </div>

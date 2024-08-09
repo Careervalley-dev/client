@@ -7,19 +7,23 @@ import TimelineComponent from "../components/Homepage/timeline/TimeLine";
 import TestimonialCarousel from "../components/Homepage/testimonialCarousel/TestimonialCarousel";
 import Marquee from "../components/Homepage/Marquee/Marquee";
 // import Orbit from "../components/Homepage/orbit/Orbit";
-
+import { useSelector, useDispatch } from "react-redux";
+import Text2 from '../text';
 
 
 const HomePage = () => {
+  const { user, token, isLoggedIn } = useSelector((state) => state.auth);
+
   return (
     <div className="bg-[]">
       <Banner1 />
-      <RegistrationModal />
+      {!isLoggedIn && <RegistrationModal />}
       <TimelineComponent />
       {/* <Orbit /> */}
       <EventsSlider />
       <TestimonialCarousel />
       <Marquee />
+      {/* <Text2 /> */}
       {/* <ContactUs /> */}
     </div>
   );

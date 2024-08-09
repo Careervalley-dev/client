@@ -25,13 +25,13 @@ const testimonials = [
     id: 3,
     name: "Sruthi Muthyala",
     text: "From the start of my bachelor's, I wanted to pursue an MBA but was anxious about choosing the right school. 'The Career Valley' guided me to the best institutes and simplified my decision. I enrolled in the MBA Program at Nalsar University of Law, thanks to Career Valley and Divya ma'am.",
-    avatar: "https://via.placeholder.com/150/0000FF/808080?text=User+Icon",
+    avatar: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y",
     bgcolor: "bg-gradient-to-r from-green-500 to-green-900",
   },
   {
     id: 4,
     name: "Abhishek",
-    text: "Before Career Valley, I was unsure about my college choice for management studies. Their guidance led me to the new program at Badruka School of Management in Hyderabad. They also helped me secure a scholarship and navigate the loan process. Now, I am happily studying at Badruka, confident about my future. Career Valley made my dream come true.",
+    text: "Before Career Valley, I was unsure about my college choice for management studies. Their guidance led me to the new program at Badruka School of Management in Hyderabad. They also helped me secure a scholarship and navigate the loan process. Now, I am happily studying at BSM, confident about my future. Career Valley made my dream come true.",
     avatar: "https://res.cloudinary.com/du3i8e0se/image/upload/v1723024960/Abhisek_ib0xuw.png",
     bgcolor: "bg-gradient-to-r from-yellow-500 to-yellow-900",
   },
@@ -105,10 +105,10 @@ const TestimonialCarousel = () => {
               <div className="review flex justify-center items-center h-full">
                 <p className="text-white">{testimonial.text}</p>
               </div>
-              <div className="reviewer flex items-center gap-x-6 absolute bottom-0 left-40 lg:left-28">
+              <div className="reviewer flex items-center gap-x-6 absolute bottom-1 left-40 lg:left-28">
                 <img
                   src={testimonial.avatar}
-                  className="rounded-full h-[50px]"
+                  className="rounded-full h-[70px]"
                   alt={testimonial.name}
                 />
                 <p className="source text-[18px] text-white">{testimonial.name}</p>
