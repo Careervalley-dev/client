@@ -1,0 +1,168 @@
+.member_card {
+    width: 280px;
+    height: 280px;
+    background: white;
+    border-radius: 32px;
+    padding: 3px;
+    border: 2px solid #235950;
+    position: relative;
+    box-shadow: #604b4a30 0px 70px 30px -50px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .member_card .mail {
+    position: absolute;
+    right: 2rem;
+    top: 1.4rem;
+    background: transparent;
+    border: none;
+  }
+  
+  .member_card .mail svg {
+    stroke: #235950;
+    stroke-width: 3px;
+  }
+  
+  .member_card .mail svg:hover {
+    stroke: #f55d56;
+  }
+  
+  .member_card .profile-pic {
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    top: 3px;
+    left: 3px;
+    border-radius: 29px;
+    z-index: 1;
+    border: 0px solid #235950;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out 0.2s, z-index 0.5s ease-in-out 0.2s;
+  }
+  
+  .member_card .profile-pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 0px 0px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  .member_card .bottom {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    background: #235950;
+    top: 80%;
+    border-radius: 29px;
+    z-index: 2;
+    /* box-shadow: rgba(96, 75, 74, 0.188) 0px 5px 5px 0px inset; */
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+  
+  .member_card .bottom .member_card_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    right: 1.5rem;
+    height: 160px;
+  }
+  
+  .member_card .bottom .member_card_content .name {
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .member_card .bottom .member_card_content .about-me {
+    display: block;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 1rem;
+  }
+  
+  .member_card .bottom .bottom-bottom {
+    position: absolute;
+    margin-top: 10px;
+    bottom: .7rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .member_card .bottom .bottom-bottom .social-links-container {
+    display: flex;
+    padding-left: 15px;
+    gap: 1rem;
+  }
+  
+  .member_card .bottom .bottom-bottom .social-links-container svg {
+    height: 20px;
+    fill: white;
+    filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.133));
+    cursor: pointer;
+  }
+  
+  .member_card .bottom .bottom-bottom .social-links-container svg:hover {
+    fill: #f55d56;
+    transform: scale(1.2);
+  }
+  
+  .member_card .bottom .bottom-bottom .button {
+    background: white;
+    color: #235950;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.6rem;
+    /* box-shadow: rgba(165, 132, 130, 0.133) 0px 5px 5px 0px; */
+  }
+  
+  .member_card .bottom .bottom-bottom .button:hover {
+    background: #f55d56;
+    color: white;
+  }
+  
+  .member_card:hover {
+    border-top-left-radius: 55px;
+  }
+  
+  .member_card:hover .bottom {
+    top: 20%;
+    border-radius: 80px 29px 29px 29px;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+  }
+  
+  .member_card:hover .profile-pic {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    z-index: 3;
+    border: 7px solid #235950;
+    /* box-shadow: rgba(96, 75, 74, 0.188) 0px 5px 5px 0px; */
+    transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
+  }
+  
+  .member_card:hover .profile-pic:hover {
+    transform: scale(1.3);
+    border-radius: 0px;
+  }
+  
+  .member_card:hover .profile-pic img {
+    transform: scale(2.5);
+    object-position: 0px 25px;
+    transition: all 0.5s ease-in-out 0.5s;
+  }
+  
