@@ -1,7 +1,7 @@
 [
   {
     "name": "IIT Delhi - Indian Institute of Technology [IITD], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 2,
@@ -18,7 +18,7 @@
   },
   {
     "name": "Delhi Technological University - [DTU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 29,
@@ -35,7 +35,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 26,
@@ -69,7 +69,7 @@
   },
   {
     "name": "Indraprastha Institute of Information Technology - [IIITD], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 75,
@@ -86,7 +86,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 84,
@@ -103,7 +103,7 @@
   },
   {
     "name": "Indira Gandhi Delhi Technical University For Women -[IGDTUW], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 151,
@@ -120,7 +120,7 @@
   },
   {
     "name": "Netaji Subhas University of Technology - [NSUT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 60,
@@ -137,7 +137,7 @@
   },
   {
     "name": "National Institute of Technology - [NIT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 51,
@@ -154,7 +154,7 @@
   },
   {
     "name": "Indraprastha Institute of Technology and Management - [IITM], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 29,
@@ -171,7 +171,7 @@
   },
   {
     "name": "IIT Delhi - Indian Institute of Technology [IITD], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 2,
@@ -188,7 +188,7 @@
   },
   {
     "name": "Delhi Technological University - [DTU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 29,
@@ -205,7 +205,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 26,
@@ -239,7 +239,7 @@
   },
   {
     "name": "Indraprastha Institute of Information Technology - [IIITD], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 75,
@@ -256,7 +256,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 84,
@@ -273,7 +273,7 @@
   },
   {
     "name": "Indira Gandhi Delhi Technical University For Women -[IGDTUW], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 151,
@@ -290,7 +290,7 @@
   },
   {
     "name": "Netaji Subhas University of Technology - [NSUT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 60,
@@ -307,7 +307,7 @@
   },
   {
     "name": "National Institute of Technology - [NIT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 51,
@@ -325,7 +325,7 @@
 
   {
     "name": "St Stephen's College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 4,
@@ -342,7 +342,7 @@
   },
   {
     "name": "Hindu College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 1,
@@ -359,7 +359,7 @@
   },
   {
     "name": "Lady Shri Ram College for Women - [LSR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 16,
@@ -376,7 +376,7 @@
   },
   {
     "name": "Miranda House, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 2,
@@ -393,7 +393,7 @@
   },
   {
     "name": "Hansraj College - [HRC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 3,
@@ -410,7 +410,7 @@
   },
   {
     "name": "Kirori Mal College - [KMC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 6,
@@ -427,7 +427,7 @@
   },
   {
     "name": "Ramjas College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 20,
@@ -444,7 +444,7 @@
   },
   {
     "name": "Sri Venkateswara College - Delhi, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 10,
@@ -461,7 +461,7 @@
   },
   {
     "name": "Atma Ram Sanatan Dharma College - [ARSD], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 15,
@@ -478,7 +478,7 @@
   },
   {
     "name": "Lady Irwin College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 32,
@@ -496,7 +496,7 @@
 
   {
     "name": "Shri Ram College of Commerce - [SRCC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 1,
@@ -513,7 +513,7 @@
   },
   {
     "name": "Lady Shri Ram College for Women - [LSR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 16,
@@ -530,7 +530,7 @@
   },
   {
     "name": "Hindu College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 2,
@@ -547,7 +547,7 @@
   },
   {
     "name": "Lady Shri Ram College for Women - [LSR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 4,
@@ -564,7 +564,7 @@
   },
   {
     "name": "Hansraj College - [HRC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 3,
@@ -581,7 +581,7 @@
   },
   {
     "name": "Kirori Mal College - [KMC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 5,
@@ -598,7 +598,7 @@
   },
   {
     "name": "Sri Venkateswara College - Delhi, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 12,
@@ -615,7 +615,7 @@
   },
   {
     "name": "Gargi College - [GC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 14,
@@ -633,7 +633,7 @@
 
   {
     "name": "Amity University, Noida",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 28,
@@ -650,7 +650,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 25,
@@ -667,7 +667,7 @@
   },
   {
     "name": "Jagan Institute of Management Studies - [JIMS] Rohini, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 88,
@@ -684,7 +684,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": 66,
@@ -701,7 +701,7 @@
   },
   {
     "name": "Bharati Vidyapeeth Institute of Management and Research - [BVIMR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -718,7 +718,7 @@
   },
   {
     "name": "Galgotias University - [GU], Greater Noida",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 91,
@@ -735,7 +735,7 @@
   },
   {
     "name": "Jamia Hamdard University, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 96,
@@ -752,7 +752,7 @@
   },
   {
     "name": "Sharda University",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 101,
@@ -769,7 +769,7 @@
   },
   {
     "name": "Netaji Subhas University of Technology - [NSUT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -786,7 +786,7 @@
   },
   {
     "name": "Deen Dayal Upadhyaya College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -803,7 +803,7 @@
   },
   {
     "name": "Gargi College - [GC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -820,7 +820,7 @@
   },
   {
     "name": "Vivekananda Institute of Professional Studies - [VIPS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -837,7 +837,7 @@
   },
   {
     "name": "Bharati Vidyapeeth Institute of Management and Research - [BVIMR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -854,7 +854,7 @@
   },
   {
     "name": "Fairfield Institute of Management and Technology - [FIMT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 21,
@@ -871,7 +871,7 @@
   },
   {
     "name": "Shikshapeeth College of Management and Technology - [SCMT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -888,7 +888,7 @@
   },
   {
     "name": "Chanderprabhu Jain College of Higher Studies & School of Law, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "36",
@@ -905,7 +905,7 @@
   },
   {
     "name": "Jamia Hamdard University, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -922,7 +922,7 @@
   },
   {
     "name": "Indira Gandhi National Open University - [IGNOU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -939,7 +939,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -956,7 +956,7 @@
   },
   {
     "name": "Bhai Parmanand Institute of Business Studies - [BPIBS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -973,7 +973,7 @@
   },
   {
     "name": "Delhi Skill and Entrepreneurship University (DSEU), New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -991,7 +991,7 @@
 
   {
     "name": "Jawaharlal Nehru University - [JNU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1008,7 +1008,7 @@
   },
   {
     "name": "Delhi University - [DU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1025,7 +1025,7 @@
   },
   {
     "name": "Delhi University - [DU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1042,7 +1042,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1059,7 +1059,7 @@
   },
   {
     "name": "Indira Gandhi National Open University - [IGNOU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1076,7 +1076,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1093,7 +1093,7 @@
   },
   {
     "name": "Indira Gandhi Delhi Technical University For Women -[IGDTUW], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1110,7 +1110,7 @@
   },
   {
     "name": "Bhai Parmanand Institute of Business Studies - [BPIBS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1127,7 +1127,7 @@
   },
   {
     "name": "Delhi Skill and Entrepreneurship University (DSEU), New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1144,7 +1144,7 @@
   },
   {
     "name": "Vivekananda Institute of Professional Studies - [VIPS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1161,7 +1161,7 @@
   },
   {
     "name": "Institute of Information Technology & Management - [IITM], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "48",
@@ -1178,7 +1178,7 @@
   },
   {
     "name": "Jamia Hamdard University, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1195,7 +1195,7 @@
   },
   {
     "name": "Jagan Institute of Management Studies - [JIMS] Rohini, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "11",
@@ -1212,7 +1212,7 @@
   },
   {
     "name": "Lady Shri Ram College for Women - [LSR], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "4",
@@ -1229,7 +1229,7 @@
   },
   {
     "name": "Miranda House, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 3,
@@ -1246,7 +1246,7 @@
   },
   {
     "name": "Hindu College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 1,
@@ -1263,7 +1263,7 @@
   },
   {
     "name": "Hansraj College - [HRC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "6",
@@ -1280,7 +1280,7 @@
   },
   {
     "name": "Ramjas College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "12",
@@ -1297,7 +1297,7 @@
   },
   {
     "name": "Gargi College - [GC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "11",
@@ -1314,7 +1314,7 @@
   },
   {
     "name": "Sri Venkateswara College - Delhi, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "10",
@@ -1331,7 +1331,7 @@
   },
   {
     "name": "Shri Ram College of Commerce - [SRCC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1348,7 +1348,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "21",
@@ -1365,7 +1365,7 @@
   },
   {
     "name": "St Stephen's College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "2",
@@ -1382,7 +1382,7 @@
   },
   {
     "name": "Jagan Institute of Management Studies - [JIMS] Rohini, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1399,7 +1399,7 @@
   },
   {
     "name": "Jamia Hamdard University, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1416,7 +1416,7 @@
   },
   {
     "name": "Shivaji College, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "38",
@@ -1433,7 +1433,7 @@
   },
   {
     "name": "Vivekananda Institute of Professional Studies - [VIPS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1450,7 +1450,7 @@
   },
   {
     "name": "Fairfield Institute of Management and Technology - [FIMT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1468,7 +1468,7 @@
 
   {
     "name": "FMS Delhi Faculty of Management Studies, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "11",
@@ -1485,7 +1485,7 @@
   },
   {
     "name": "DMS - Department of Management Studies IIT, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "5",
@@ -1502,7 +1502,7 @@
   },
   {
     "name": "Department of Business Economics, University of Delhi - [DBE], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "26",
@@ -1519,7 +1519,7 @@
   },
   {
     "name": "Department of Commerce, University of Delhi, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "47",
@@ -1536,7 +1536,7 @@
   },
   {
     "name": "Jamia Millia Islamia University-[JMI], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "34",
@@ -1553,7 +1553,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "25",
@@ -1570,7 +1570,7 @@
   },
   {
     "name": "Netaji Subhas University of Technology - [NSUT], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "23",
@@ -1587,7 +1587,7 @@
   },
   {
     "name": "Jawaharlal Nehru University - [JNU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "-",
@@ -1604,7 +1604,7 @@
   },
   {
     "name": "Shri Ram College of Commerce - [SRCC], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "-",
@@ -1622,7 +1622,7 @@
 
   {
     "name": "IIFT Delhi Indian Institute of Foreign Trade, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "27",
@@ -1639,7 +1639,7 @@
   },
   {
     "name": "Jagan Institute of Management Studies - [JIMS] Rohini, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "postgraduate",
     "rank": "88",
@@ -1657,7 +1657,7 @@
 
   {
     "name": "National Law University - [NLU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "2",
@@ -1674,7 +1674,7 @@
   },
   {
     "name": "Faculty of Law, University of Delhi, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "11",
@@ -1691,7 +1691,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "66",
@@ -1708,7 +1708,7 @@
   },
   {
     "name": "Vivekananda Institute of Professional Studies - [VIPS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "26",
@@ -1725,7 +1725,7 @@
   },
   {
     "name": "Lloyd Law College, Greater Noida",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "10",
@@ -1742,7 +1742,7 @@
   },
   {
     "name": "Amity Law School - [ALS], Noida",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "23",
@@ -1759,7 +1759,7 @@
   },
   {
     "name": "Chanderprabhu Jain College of Higher Studies & School of Law, New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "43",
@@ -1776,7 +1776,7 @@
   },
   {
     "name": "Vivekananda Institute of Professional Studies - [VIPS], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": "26",
@@ -1793,7 +1793,7 @@
   },
   {
     "name": "Guru Gobind Singh Indraprastha University - [GGSIPU], New Delhi",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "Delhi NCR",
     "programType": "undergraduate",
     "rank": 51,
