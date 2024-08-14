@@ -40,18 +40,18 @@ const cities = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chhatrapati_shivaji_terminus%2C_esterno_01.jpg/218px-Chhatrapati_shivaji_terminus%2C_esterno_01.jpg",
     desc: "The City of Dreams",
   },
-  {
-    name: "Pune",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pune_Palace.jpg/225px-Pune_Palace.jpg",
-    desc: "The Oxford of the East",
-  },
-  {
-    name: "Madurai",
-    image:
-      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ4Hv3wOkhOaVKtsOubMagJqyKG1ZEMdvPmyCjrCEnSlc6o4AR_IRO0gkRfsiZR6b5_80ADpj8bzkKXatHcPGtYdHdRCDBZVhWO0IMElA",
-    desc: "The City that never sleeps",
-  },
+  // {
+  //   name: "Pune",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pune_Palace.jpg/225px-Pune_Palace.jpg",
+  //   desc: "The Oxford of the East",
+  // },
+  // {
+  //   name: "Madurai",
+  //   image:
+  //     "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ4Hv3wOkhOaVKtsOubMagJqyKG1ZEMdvPmyCjrCEnSlc6o4AR_IRO0gkRfsiZR6b5_80ADpj8bzkKXatHcPGtYdHdRCDBZVhWO0IMElA",
+  //   desc: "The City that never sleeps",
+  // },
 ];
 
 const UndergraduatePage = () => {

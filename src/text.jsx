@@ -13,29 +13,29 @@ const EventRegistrationConfirmation = ({ user, event, formattedDate }) => {
           Event Registration Confirmation
         </h2>
         <p style={{ color: '#2a655a', lineHeight: '1.6', margin: '0', fontSize: '20px' }}>
-          <strong style={{ color: '#2a655a' }}>Hi Aditya</strong>,
+          <strong style={{ color: '#2a655a' }}>Hi ${user.name}</strong>,
         </p>
         <p style={{ color: '#2a655a', lineHeight: '1.6', margin: '0 0 20px', fontSize: '16px' }}>
-          You have successfully registered for our event "<strong style={{ color: '#2a655a' }}>event.title</strong>".
+          You have successfully registered for our event "<strong style={{ color: '#2a655a' }}>${event.title}</strong>".
         </p>
         <p style={{ color: '#2a655a', lineHeight: '1.6', marginBottom: '20px', fontSize: '16px' }}>
           Here are the event details:
         </p>
         <ul style={{ listStyle: 'none', padding: '0', color: '#2a655a', lineHeight: '1.6', textAlign: 'center', fontSize: '16px' }}>
           <li style={{ marginBottom: '10px' }}>
-            <strong style={{ color: '#2a655a' }}>Date:</strong> formattedDate
+            <strong style={{ color: '#2a655a' }}>Date:</strong> ${formattedDate}
           </li>
           <li style={{ marginBottom: '10px' }}>
-            <strong style={{ color: '#2a655a' }}>Time:</strong> event.time
+            <strong style={{ color: '#2a655a' }}>Time:</strong> ${event.time}
           </li>
           <li style={{ marginBottom: '10px' }}>
-            <strong style={{ color: '#2a655a' }}>Location:</strong> event.location
+            <strong style={{ color: '#2a655a' }}>Location:</strong> ${event.location}
           </li>
           <li style={{ marginBottom: '10px' }}>
-            <strong style={{ color: '#2a655a' }}>Event Type:</strong> event.eventType
+            <strong style={{ color: '#2a655a' }}>Event Type:</strong> ${event.eventType}
           </li>
           <li style={{ marginBottom: '10px' }}>
-            <strong style={{ color: '#2a655a' }}>Program Type:</strong> event.programType
+            <strong style={{ color: '#2a655a' }}>Program Type:</strong> ${event.programType}
           </li>
         </ul>
         <p style={{ color: '#2a655a', lineHeight: '1.6', marginTop: '20px', fontSize: '16px' }}>
