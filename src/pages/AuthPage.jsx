@@ -13,7 +13,7 @@ const AuthPage = () => {
         <div className="modal-header flex flex-col justify-start">
           <div>
             <img
-              src="https://thecareervalley.com/wp-content/uploads/2023/07/Career-Vallet-Logo.png"
+              src="https://res.cloudinary.com/du3i8e0se/image/upload/v1722532332/CV_logo_yfndbw.png"
               className="w-44"
             />
           </div>
